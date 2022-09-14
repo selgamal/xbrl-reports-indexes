@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <addresses>
+        <address type="mailing">
+          <city>NEW YORK</city>
+          <state>NY</state>
+          <street1>375 PARK AVENUE, 8TH FLOOR</street1>
+          <zip>10152</zip>
+        </address>
+        <address type="business">
+          <city>NEW YORK</city>
+          <phone>212-300-1600</phone>
+          <state>NY</state>
+          <street1>375 PARK AVENUE, 8TH FLOOR</street1>
+          <zip>10152</zip>
+        </address>
+      </addresses>
+      <cik>0001691994</cik>
+      <cik-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001691994&amp;owner=include&amp;count=40</cik-href>
+      <conformed-name>Fiera Capital Series Trust</conformed-name>
+      <fiscal-year-end>1031</fiscal-year-end>
+      <state-location>NY</state-location>
+      <state-location-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;State=NY&amp;owner=include&amp;count=40</state-location-href>
+      <state-of-incorporation>DE</state-of-incorporation>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-047364</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922047364/0001145549-22-047364-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>221158835</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>269 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-047364</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922047364/0001145549-22-047364-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-047364 &lt;b&gt;Size:&lt;/b&gt; 269 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-08-12T11:56:00-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-047363</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922047363/0001145549-22-047363-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>221158834</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>236 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-047363</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922047363/0001145549-22-047363-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-047363 &lt;b&gt;Size:&lt;/b&gt; 236 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-08-12T11:55:55-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-047362</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922047362/0001145549-22-047362-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>221158833</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>244 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-047362</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922047362/0001145549-22-047362-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-047362 &lt;b&gt;Size:&lt;/b&gt; 244 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-08-12T11:55:50-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-047361</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922047361/0001145549-22-047361-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>221158832</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>246 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-047361</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922047361/0001145549-22-047361-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-047361 &lt;b&gt;Size:&lt;/b&gt; 246 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-08-12T11:55:45-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="N-PX" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-015366</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-11</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422015366/0001398344-22-015366-index.htm</filing-href>
+        <filing-type>N-PX</filing-type>
+        <film-number>221156239</film-number>
+        <form-name>Annual Report of proxy voting record of management investment companies</form-name>
+        <size>980 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-015366</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422015366/0001398344-22-015366-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-11 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-015366 &lt;b&gt;Size:&lt;/b&gt; 980 KB</summary>
+      <title>N-PX  - Annual Report of proxy voting record of management investment companies</title>
+      <updated>2022-08-11T16:24:24-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="497J" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014689</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014689/0001398344-22-014689-index.htm</filing-href>
+        <filing-type>497J</filing-type>
+        <film-number>221133049</film-number>
+        <form-name>Certification of no change in definitive materials</form-name>
+        <size>5 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014689</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014689/0001398344-22-014689-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014689 &lt;b&gt;Size:&lt;/b&gt; 5 KB</summary>
+      <title>497J  - Certification of no change in definitive materials</title>
+      <updated>2022-08-03T16:28:27-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="497J" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014688</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014688/0001398344-22-014688-index.htm</filing-href>
+        <filing-type>497J</filing-type>
+        <film-number>221133037</film-number>
+        <form-name>Certification of no change in definitive materials</form-name>
+        <size>5 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014688</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014688/0001398344-22-014688-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014688 &lt;b&gt;Size:&lt;/b&gt; 5 KB</summary>
+      <title>497J  - Certification of no change in definitive materials</title>
+      <updated>2022-08-03T16:27:35-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="497J" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014684</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014684/0001398344-22-014684-index.htm</filing-href>
+        <filing-type>497J</filing-type>
+        <film-number>221132973</film-number>
+        <form-name>Certification of no change in definitive materials</form-name>
+        <size>5 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014684</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014684/0001398344-22-014684-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014684 &lt;b&gt;Size:&lt;/b&gt; 5 KB</summary>
+      <title>497J  - Certification of no change in definitive materials</title>
+      <updated>2022-08-03T16:22:33-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="497J" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014682</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-08-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014682/0001398344-22-014682-index.htm</filing-href>
+        <filing-type>497J</filing-type>
+        <film-number>221132924</film-number>
+        <form-name>Certification of no change in definitive materials</form-name>
+        <size>5 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014682</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014682/0001398344-22-014682-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014682 &lt;b&gt;Size:&lt;/b&gt; 5 KB</summary>
+      <title>497J  - Certification of no change in definitive materials</title>
+      <updated>2022-08-03T16:20:26-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014404</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/0001398344-22-014404-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221122040</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014404&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014404</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/0001398344-22-014404-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014404 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:29:51-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014404</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/0001398344-22-014404-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221122039</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014404&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014404</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/0001398344-22-014404-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014404 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:29:51-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014400</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014400/0001398344-22-014400-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221121988</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014400&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014400</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014400/0001398344-22-014400-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014400 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:26:01-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014400</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014400/0001398344-22-014400-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221121989</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014400&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014400</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014400/0001398344-22-014400-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014400 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:26:01-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014391</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014391/0001398344-22-014391-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221121826</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014391&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014391</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014391/0001398344-22-014391-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014391 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:14:59-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014391</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014391/0001398344-22-014391-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221121827</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014391&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014391</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014391/0001398344-22-014391-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014391 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:14:59-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014386</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014386/0001398344-22-014386-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221121775</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014386&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014386</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014386/0001398344-22-014386-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014386 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:08:49-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="485BPOS" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-014386</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014386/0001398344-22-014386-index.htm</filing-href>
+        <filing-type>485BPOS</filing-type>
+        <film-number>221121774</film-number>
+        <form-name>Post-effective amendment [Rule 485(b)]</form-name>
+        <size>2 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1691994&amp;accession_number=0001398344-22-014386&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-014386</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014386/0001398344-22-014386-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-014386 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>485BPOS  - Post-effective amendment [Rule 485(b)]</title>
+      <updated>2022-07-29T17:08:49-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="24F-2NT" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-012319</accession-number>
+        <act>33</act>
+        <file-number>333-215049</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-215049&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-06-22</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422012319/0001398344-22-012319-index.htm</filing-href>
+        <filing-type>24F-2NT</filing-type>
+        <film-number>221032188</film-number>
+        <form-name>Rule 24F-2 notice</form-name>
+        <size>8 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-012319</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422012319/0001398344-22-012319-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-06-22 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-012319 &lt;b&gt;Size:&lt;/b&gt; 8 KB</summary>
+      <title>24F-2NT  - Rule 24F-2 notice</title>
+      <updated>2022-06-22T16:11:42-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="N-CEN/A" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-036363</accession-number>
+        <act>40</act>
+        <amend>[Amend]</amend>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-06-09</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922036363/0001145549-22-036363-index.htm</filing-href>
+        <filing-type>N-CEN/A</filing-type>
+        <film-number>221006218</film-number>
+        <form-name>Annual Report for Registered Investment Companies</form-name>
+        <size>70 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-036363</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922036363/0001145549-22-036363-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-06-09 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-036363 &lt;b&gt;Size:&lt;/b&gt; 70 KB</summary>
+      <title>N-CEN/A [Amend]  - Annual Report for Registered Investment Companies</title>
+      <updated>2022-06-09T16:21:23-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="N-CEN" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-036354</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-06-09</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922036354/0001145549-22-036354-index.htm</filing-href>
+        <filing-type>N-CEN</filing-type>
+        <film-number>221005896</film-number>
+        <form-name>Annual Report for Registered Investment Companies</form-name>
+        <size>70 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-036354</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922036354/0001145549-22-036354-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-06-09 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-036354 &lt;b&gt;Size:&lt;/b&gt; 70 KB</summary>
+      <title>N-CEN  - Annual Report for Registered Investment Companies</title>
+      <updated>2022-06-09T15:46:47-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="N-CSR" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-011593</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-06-07</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422011593/0001398344-22-011593-index.htm</filing-href>
+        <filing-type>N-CSR</filing-type>
+        <film-number>221000102</film-number>
+        <form-name>Certified Shareholder Report</form-name>
+        <size>1 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-011593</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422011593/0001398344-22-011593-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-06-07 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-011593 &lt;b&gt;Size:&lt;/b&gt; 1 MB</summary>
+      <title>N-CSR  - Certified Shareholder Report</title>
+      <updated>2022-06-07T09:40:11-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-028831</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-05-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922028831/0001145549-22-028831-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22954283</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>36 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-028831</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922028831/0001145549-22-028831-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-028831 &lt;b&gt;Size:&lt;/b&gt; 36 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-05-24T09:53:49-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-028830</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-05-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922028830/0001145549-22-028830-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22954282</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>28 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-028830</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922028830/0001145549-22-028830-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-028830 &lt;b&gt;Size:&lt;/b&gt; 28 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-05-24T09:53:43-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-028825</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-05-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922028825/0001145549-22-028825-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22954280</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>37 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-028825</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922028825/0001145549-22-028825-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-028825 &lt;b&gt;Size:&lt;/b&gt; 37 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-05-24T09:53:34-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-028826</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-05-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922028826/0001145549-22-028826-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22954281</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>63 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-028826</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922028826/0001145549-22-028826-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-028826 &lt;b&gt;Size:&lt;/b&gt; 63 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-05-24T09:53:34-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-008587</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-02-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922008587/0001145549-22-008587-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22668246</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>232 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-008587</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922008587/0001145549-22-008587-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-02-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-008587 &lt;b&gt;Size:&lt;/b&gt; 232 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-02-24T11:42:02-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-008586</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-02-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922008586/0001145549-22-008586-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22668245</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>264 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-008586</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922008586/0001145549-22-008586-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-02-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-008586 &lt;b&gt;Size:&lt;/b&gt; 264 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-02-24T11:41:57-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-008585</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-02-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922008585/0001145549-22-008585-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22668244</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>239 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-008585</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922008585/0001145549-22-008585-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-02-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-008585 &lt;b&gt;Size:&lt;/b&gt; 239 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-02-24T11:41:52-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-22-008584</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-02-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554922008584/0001145549-22-008584-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>22668240</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>243 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-22-008584</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554922008584/0001145549-22-008584-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-02-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-22-008584 &lt;b&gt;Size:&lt;/b&gt; 243 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2022-02-24T11:41:47-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="40-17G" />
+      <content type="text/xml">
+        <accession-number>0001398344-22-000986</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-01-25</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834422000986/0001398344-22-000986-index.htm</filing-href>
+        <filing-type>40-17G</filing-type>
+        <film-number>22554741</film-number>
+        <form-name>Fidelity Bond [Rule 17G-1(g)]</form-name>
+        <size>609 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-22-000986</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834422000986/0001398344-22-000986-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-01-25 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-22-000986 &lt;b&gt;Size:&lt;/b&gt; 609 KB</summary>
+      <title>40-17G  - Fidelity Bond [Rule 17G-1(g)]</title>
+      <updated>2022-01-25T17:14:51-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001398344-21-023892</accession-number>
+        <filing-date>2021-12-14</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834421023892/0001398344-21-023892-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>28 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-21-023892</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834421023892/0001398344-21-023892-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-12-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-21-023892 &lt;b&gt;Size:&lt;/b&gt; 28 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2021-12-14T17:05:45-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DEF 14A" />
+      <content type="text/xml">
+        <accession-number>0001398344-21-023889</accession-number>
+        <act>34</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-12-14</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834421023889/0001398344-21-023889-index.htm</filing-href>
+        <filing-type>DEF 14A</filing-type>
+        <film-number>211491690</film-number>
+        <form-name>Other definitive proxy statements</form-name>
+        <size>680 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-21-023889</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834421023889/0001398344-21-023889-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-12-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-21-023889 &lt;b&gt;Size:&lt;/b&gt; 680 KB</summary>
+      <title>DEF 14A  - Other definitive proxy statements</title>
+      <updated>2021-12-14T16:59:29-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="N-CSRS" />
+      <content type="text/xml">
+        <accession-number>0001398344-21-023286</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-12-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834421023286/0001398344-21-023286-index.htm</filing-href>
+        <filing-type>N-CSRS</filing-type>
+        <film-number>211468908</film-number>
+        <form-name>Certified Shareholder Report, Semi-Annual</form-name>
+        <size>1 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-21-023286</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834421023286/0001398344-21-023286-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-12-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-21-023286 &lt;b&gt;Size:&lt;/b&gt; 1 MB</summary>
+      <title>N-CSRS  - Certified Shareholder Report, Semi-Annual</title>
+      <updated>2021-12-03T09:49:31-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="PRE 14A" />
+      <content type="text/xml">
+        <accession-number>0001398344-21-023063</accession-number>
+        <act>34</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-11-30</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000139834421023063/0001398344-21-023063-index.htm</filing-href>
+        <filing-type>PRE 14A</filing-type>
+        <film-number>211457942</film-number>
+        <form-name>Other preliminary proxy statements</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>649 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001398344-21-023063</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000139834421023063/0001398344-21-023063-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-11-30 &lt;b&gt;AccNo:&lt;/b&gt; 0001398344-21-023063 &lt;b&gt;Size:&lt;/b&gt; 649 KB</summary>
+      <title>PRE 14A [Cover] - Other preliminary proxy statements</title>
+      <updated>2021-11-29T19:41:45-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-21-069095</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-11-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554921069095/0001145549-21-069095-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>211443634</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>36 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-21-069095</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554921069095/0001145549-21-069095-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-11-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-21-069095 &lt;b&gt;Size:&lt;/b&gt; 36 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2021-11-24T12:19:24-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-21-069094</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-11-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554921069094/0001145549-21-069094-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>211443633</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>29 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-21-069094</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554921069094/0001145549-21-069094-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-11-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-21-069094 &lt;b&gt;Size:&lt;/b&gt; 29 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2021-11-24T12:19:19-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-21-069093</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-11-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554921069093/0001145549-21-069093-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>211443632</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>63 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-21-069093</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554921069093/0001145549-21-069093-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-11-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-21-069093 &lt;b&gt;Size:&lt;/b&gt; 63 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2021-11-24T12:19:14-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-21-069092</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-11-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554921069092/0001145549-21-069092-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>211443630</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>37 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-21-069092</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554921069092/0001145549-21-069092-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-11-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-21-069092 &lt;b&gt;Size:&lt;/b&gt; 37 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2021-11-24T12:19:08-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-21-048590</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-08-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554921048590/0001145549-21-048590-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>211202728</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>298 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-21-048590</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554921048590/0001145549-21-048590-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-08-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-21-048590 &lt;b&gt;Size:&lt;/b&gt; 298 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2021-08-24T16:51:11-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="NPORT-P" />
+      <content type="text/xml">
+        <accession-number>0001145549-21-048589</accession-number>
+        <act>40</act>
+        <file-number>811-23220</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-23220&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-08-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1691994/000114554921048589/0001145549-21-048589-index.htm</filing-href>
+        <filing-type>NPORT-P</filing-type>
+        <film-number>211202727</film-number>
+        <form-name>Monthly Portfolio Investments Report on Form N-PORT (Public)</form-name>
+        <size>305 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001145549-21-048589</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1691994/000114554921048589/0001145549-21-048589-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-08-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-21-048589 &lt;b&gt;Size:&lt;/b&gt; 305 KB</summary>
+      <title>NPORT-P  - Monthly Portfolio Investments Report on Form N-PORT (Public)</title>
+      <updated>2021-08-24T16:51:05-04:00</updated>
+    </entry>
+    <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001691994</id>
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001691994&amp;action=getcompany&amp;start=0&amp;count=40" rel="alternate" type="text/html" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001691994&amp;action=getcompany&amp;start=0&amp;count=40&amp;output=atom" rel="self" type="application/atom+xml" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001691994&amp;type=&amp;datea=&amp;dateb=&amp;owner=include&amp;count=40&amp;output=atom&amp;start=40" rel="next" type="application/atom+xml" />
+    <title>Fiera Capital Series Trust  (0001691994)</title>
+    <updated>2022-09-09T04:32:51-04:00</updated>
+  </feed>

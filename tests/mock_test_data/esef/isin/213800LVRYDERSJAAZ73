@@ -1,0 +1,29 @@
+{
+    "meta": {
+        "goldenCopy": {
+            "publishDate": "2022-09-09T00:00:00Z"
+        },
+        "pagination": {
+            "currentPage": 1,
+            "perPage": 15,
+            "from": 1,
+            "to": 1,
+            "total": 1,
+            "lastPage": 1
+        }
+    },
+    "links": {
+        "first": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/isins?page%5Bnumber%5D=1&page%5Bsize%5D=15",
+        "last": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/isins?page%5Bnumber%5D=1&page%5Bsize%5D=15"
+    },
+    "data": [
+        {
+            "type": "isins",
+            "id": "98731ff8-d438-43e2-8bcc-7870491afff5",
+            "attributes": {
+                "lei": "213800LVRYDERSJAAZ73",
+                "isin": "GB0005518872"
+            }
+        }
+    ]
+}

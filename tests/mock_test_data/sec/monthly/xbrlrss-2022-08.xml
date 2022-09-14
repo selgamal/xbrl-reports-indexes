@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>All XBRL Data Submitted to the SEC for 2022-08</title>
+    <link>https://www.sec.gov/spotlight/xbrl/filings-and-feeds.shtml</link>
+    <atom:link href="https://www.sec.gov/Archives/edgar/monthly/xbrlrss-2022-08.xml" rel="self" type="application/rss+xml" xmlns:atom="https://www.w3.org/2005/Atom"/>
+    <description>This is a MOCK list of the filings containing XBRL for 2022-08</description>
+    <language>en-us</language>
+    <pubDate>Wed, 31 Aug 2022 00:00:00 EDT</pubDate>
+    <lastBuildDate>Wed, 31 Aug 2022 00:00:00 EDT</lastBuildDate>
+    <item>
+        <title>PHOTRONICS INC (0000810136) (Filer)</title>
+        <link>https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/0001140361-22-031812-index.htm</link>
+        <guid>https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/0001140361-22-031812-xbrl.zip</guid>
+        <enclosure url="https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/0001140361-22-031812-xbrl.zip" length="16992" type="application/zip" />
+        <description>8-K</description>
+        <pubDate>Wed, 31 Aug 2022 17:28:02 EDT</pubDate>
+        <edgar:xbrlFiling xmlns:edgar="https://www.sec.gov/Archives/edgar">
+          <edgar:companyName>PHOTRONICS INC</edgar:companyName>
+          <edgar:formType>8-K</edgar:formType>
+          <edgar:filingDate>08/31/2022</edgar:filingDate>
+          <edgar:cikNumber>0000810136</edgar:cikNumber>
+          <edgar:accessionNumber>0001140361-22-031812</edgar:accessionNumber>
+          <edgar:fileNumber>001-39063</edgar:fileNumber>
+          <edgar:acceptanceDatetime>20220831172802</edgar:acceptanceDatetime>
+          <edgar:period>20220831</edgar:period>
+          <edgar:assistantDirector>Office of Manufacturing</edgar:assistantDirector>
+          <edgar:assignedSic>3674</edgar:assignedSic>
+          <edgar:fiscalYearEnd>1031</edgar:fiscalYearEnd>
+          <edgar:xbrlFiles>
+            <edgar:xbrlFile edgar:sequence="1" edgar:file="brhc10041510_8k.htm" edgar:type="8-K" edgar:size="29063" edgar:description="8-K" edgar:inlineXBRL="true" edgar:url="https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/brhc10041510_8k.htm" />
+            <edgar:xbrlFile edgar:sequence="2" edgar:file="plab-20220831.xsd" edgar:type="EX-101.SCH" edgar:size="4310" edgar:description="XBRL TAXONOMY EXTENSION SCHEMA" edgar:url="https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/plab-20220831.xsd" />
+            <edgar:xbrlFile edgar:sequence="3" edgar:file="plab-20220831_def.xml" edgar:type="EX-101.DEF" edgar:size="17523" edgar:description="XBRL TAXONOMY EXTENSION DEFINITION LINKBASE" edgar:url="https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/plab-20220831_def.xml" />
+            <edgar:xbrlFile edgar:sequence="4" edgar:file="plab-20220831_lab.xml" edgar:type="EX-101.LAB" edgar:size="27024" edgar:description="XBRL TAXONOMY EXTENSION LABEL LINKBASE" edgar:url="https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/plab-20220831_lab.xml" />
+            <edgar:xbrlFile edgar:sequence="5" edgar:file="plab-20220831_pre.xml" edgar:type="EX-101.PRE" edgar:size="19708" edgar:description="XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE" edgar:url="https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/plab-20220831_pre.xml" />
+            <edgar:xbrlFile edgar:sequence="6" edgar:file="image00002.jpg" edgar:type="GRAPHIC" edgar:size="4896" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/810136/000114036122031812/image00002.jpg" />
+          </edgar:xbrlFiles>
+        </edgar:xbrlFiling>
+      </item>
+      <item>
+        <title>Provention Bio, Inc. (0001695357) (Filer)</title>
+        <link>https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/0001493152-22-024774-index.htm</link>
+        <guid>https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/0001493152-22-024774-xbrl.zip</guid>
+        <enclosure url="https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/0001493152-22-024774-xbrl.zip" length="16877" type="application/zip" />
+        <description>8-K</description>
+        <pubDate>Wed, 31 Aug 2022 17:27:49 EDT</pubDate>
+        <edgar:xbrlFiling xmlns:edgar="https://www.sec.gov/Archives/edgar">
+          <edgar:companyName>Provention Bio, Inc.</edgar:companyName>
+          <edgar:formType>8-K</edgar:formType>
+          <edgar:filingDate>08/31/2022</edgar:filingDate>
+          <edgar:cikNumber>0001695357</edgar:cikNumber>
+          <edgar:accessionNumber>0001493152-22-024774</edgar:accessionNumber>
+          <edgar:fileNumber>001-38552</edgar:fileNumber>
+          <edgar:acceptanceDatetime>20220831172749</edgar:acceptanceDatetime>
+          <edgar:period>20220831</edgar:period>
+          <edgar:assistantDirector>Office of Life Sciences</edgar:assistantDirector>
+          <edgar:assignedSic>2834</edgar:assignedSic>
+          <edgar:fiscalYearEnd>1231</edgar:fiscalYearEnd>
+          <edgar:xbrlFiles>
+            <edgar:xbrlFile edgar:sequence="1" edgar:file="form8-k.htm" edgar:type="8-K" edgar:size="50811" edgar:description="" edgar:inlineXBRL="true" edgar:url="https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/form8-k.htm" />
+            <edgar:xbrlFile edgar:sequence="2" edgar:file="ex99-1.htm" edgar:type="EX-99.1" edgar:size="14728" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/ex99-1.htm" />
+            <edgar:xbrlFile edgar:sequence="3" edgar:file="ex99-1_001.jpg" edgar:type="GRAPHIC" edgar:size="11235" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/ex99-1_001.jpg" />
+            <edgar:xbrlFile edgar:sequence="4" edgar:file="prvb-20220831.xsd" edgar:type="EX-101.SCH" edgar:size="2974" edgar:description="INLINE XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/prvb-20220831.xsd" />
+            <edgar:xbrlFile edgar:sequence="5" edgar:file="prvb-20220831_lab.xml" edgar:type="EX-101.LAB" edgar:size="34916" edgar:description="INLINE XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/prvb-20220831_lab.xml" />
+            <edgar:xbrlFile edgar:sequence="6" edgar:file="prvb-20220831_pre.xml" edgar:type="EX-101.PRE" edgar:size="22799" edgar:description="INLINE XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1695357/000149315222024774/prvb-20220831_pre.xml" />
+          </edgar:xbrlFiles>
+        </edgar:xbrlFiling>
+      </item>
+</channel>
+</rss>

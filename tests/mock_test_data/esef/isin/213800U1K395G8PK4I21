@@ -1,0 +1,29 @@
+{
+    "meta": {
+        "goldenCopy": {
+            "publishDate": "2022-09-09T00:00:00Z"
+        },
+        "pagination": {
+            "currentPage": 1,
+            "perPage": 15,
+            "from": 1,
+            "to": 1,
+            "total": 1,
+            "lastPage": 1
+        }
+    },
+    "links": {
+        "first": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/isins?page%5Bnumber%5D=1&page%5Bsize%5D=15",
+        "last": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/isins?page%5Bnumber%5D=1&page%5Bsize%5D=15"
+    },
+    "data": [
+        {
+            "type": "isins",
+            "id": "617042a1-1116-42da-960e-b56d68d38672",
+            "attributes": {
+                "lei": "213800U1K395G8PK4I21",
+                "isin": "BMG6699D1074"
+            }
+        }
+    ]
+}

@@ -1,0 +1,972 @@
+{
+    "meta": {
+        "goldenCopy": {
+            "publishDate": "2022-09-09T00:00:00Z"
+        },
+        "pagination": {
+            "currentPage": 1,
+            "perPage": 100,
+            "from": 1,
+            "to": 7,
+            "total": 7,
+            "lastPage": 1
+        }
+    },
+    "links": {
+        "first": "https:\/\/api.gleif.org\/api\/v1\/lei-records?filter%5Blei%5D=213800FF2R23ALJQOP04%2C213800LVRYDERSJAAZ73%2C259400T6CRXYOG6H8U09%2C25940037UC4MNP02D242%2C213800U1K395G8PK4I21%2C259400NAPDFBOTNCRL54%2C7CUNS533WID6K7DGFI87&page%5Bnumber%5D=1&page%5Bsize%5D=100",
+        "last": "https:\/\/api.gleif.org\/api\/v1\/lei-records?filter%5Blei%5D=213800FF2R23ALJQOP04%2C213800LVRYDERSJAAZ73%2C259400T6CRXYOG6H8U09%2C25940037UC4MNP02D242%2C213800U1K395G8PK4I21%2C259400NAPDFBOTNCRL54%2C7CUNS533WID6K7DGFI87&page%5Bnumber%5D=1&page%5Bsize%5D=100"
+    },
+    "data": [
+        {
+            "type": "lei-records",
+            "id": "25940037UC4MNP02D242",
+            "attributes": {
+                "lei": "25940037UC4MNP02D242",
+                "entity": {
+                    "legalName": {
+                        "name": "INPRO Sp\u00f3\u0142ka Akcyjna",
+                        "language": "pl-PL"
+                    },
+                    "otherNames": [],
+                    "transliteratedOtherNames": [
+                        {
+                            "name": "INPRO Spolka Akcyjna",
+                            "language": "pl-PL",
+                            "type": "PREFERRED_ASCII_TRANSLITERATED_LEGAL_NAME"
+                        }
+                    ],
+                    "legalAddress": {
+                        "language": "pl-PL",
+                        "addressLines": [
+                            "Gda\u0144sk Opata Jacka Rybi\u0144skiego 8"
+                        ],
+                        "addressNumber": "8",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Gda\u0144sk",
+                        "region": "PL-22",
+                        "country": "PL",
+                        "postalCode": "80-320"
+                    },
+                    "headquartersAddress": {
+                        "language": "pl-PL",
+                        "addressLines": [
+                            "Gda\u0144sk Opata Jacka Rybi\u0144skiego 8"
+                        ],
+                        "addressNumber": "8",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Gda\u0144sk",
+                        "region": "PL-22",
+                        "country": "PL",
+                        "postalCode": "80-320"
+                    },
+                    "registeredAt": {
+                        "id": "RA000484",
+                        "other": null
+                    },
+                    "registeredAs": "0000306071",
+                    "jurisdiction": "PL",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "FJ0E",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": "2008-05-28T22:00:00Z",
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2017-06-22T05:11:08Z",
+                    "lastUpdateDate": "2022-05-16T13:48:06Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2023-06-20T05:11:07Z",
+                    "managingLou": "259400L3KBYEVNHEJF55",
+                    "corroborationLevel": "FULLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000484",
+                        "other": null
+                    },
+                    "validatedAs": "0000306071",
+                    "otherValidationAuthorities": []
+                },
+                "bic": null
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/direct-parent-reporting-exception"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/ultimate-parent-reporting-exception"
+                    }
+                },
+                "direct-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/direct-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/direct-children"
+                    }
+                },
+                "ultimate-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/ultimate-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/ultimate-children"
+                    }
+                },
+                "isins": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242\/isins"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/25940037UC4MNP02D242"
+            }
+        },
+        {
+            "type": "lei-records",
+            "id": "213800LVRYDERSJAAZ73",
+            "attributes": {
+                "lei": "213800LVRYDERSJAAZ73",
+                "entity": {
+                    "legalName": {
+                        "name": "MACFARLANE GROUP PLC",
+                        "language": "en"
+                    },
+                    "otherNames": [],
+                    "transliteratedOtherNames": [],
+                    "legalAddress": {
+                        "language": "en",
+                        "addressLines": [
+                            "3 PARK GARDENS"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "GLASGOW",
+                        "region": "GB-GLG",
+                        "country": "GB",
+                        "postalCode": "G3 7YE"
+                    },
+                    "headquartersAddress": {
+                        "language": "en",
+                        "addressLines": [
+                            "3 PARK GARDENS"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "GLASGOW",
+                        "region": "GB-GLG",
+                        "country": "GB",
+                        "postalCode": "G3 7YE"
+                    },
+                    "registeredAt": {
+                        "id": "RA000587",
+                        "other": null
+                    },
+                    "registeredAs": "SC004221",
+                    "jurisdiction": "GB",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "B6ES",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": "1899-04-15T00:00:00Z",
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2017-05-12T00:00:00Z",
+                    "lastUpdateDate": "2022-04-28T12:42:19Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2023-05-12T00:00:00Z",
+                    "managingLou": "213800WAVVOPS85N2205",
+                    "corroborationLevel": "FULLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000587",
+                        "other": null
+                    },
+                    "validatedAs": "SC004221",
+                    "otherValidationAuthorities": []
+                },
+                "bic": null
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/direct-parent-reporting-exception"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/ultimate-parent-reporting-exception"
+                    }
+                },
+                "isins": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73\/isins"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800LVRYDERSJAAZ73"
+            }
+        },
+        {
+            "type": "lei-records",
+            "id": "213800U1K395G8PK4I21",
+            "attributes": {
+                "lei": "213800U1K395G8PK4I21",
+                "entity": {
+                    "legalName": {
+                        "name": "OCEAN WILSONS HOLDINGS LIMITED",
+                        "language": "en"
+                    },
+                    "otherNames": [],
+                    "transliteratedOtherNames": [],
+                    "legalAddress": {
+                        "language": "en",
+                        "addressLines": [
+                            "CLARENDON HOUSE",
+                            "2 CHURCHH STREET"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "HAMILTON",
+                        "region": null,
+                        "country": "BM",
+                        "postalCode": "HM 11"
+                    },
+                    "headquartersAddress": {
+                        "language": "en",
+                        "addressLines": [
+                            "RICHMOND HOUSE, 12 PAR-LA-VILLE ROAD",
+                            "PO BOX HM 2250"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "HAMILTON",
+                        "region": null,
+                        "country": "BM",
+                        "postalCode": "HM JX"
+                    },
+                    "registeredAt": {
+                        "id": "RA000028",
+                        "other": null
+                    },
+                    "registeredAs": "17148",
+                    "jurisdiction": "BM",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "NAQG",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": "2017-01-24T00:00:00Z",
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2017-01-26T00:00:00Z",
+                    "lastUpdateDate": "2022-04-13T06:41:00Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2023-04-13T00:00:00Z",
+                    "managingLou": "213800WAVVOPS85N2205",
+                    "corroborationLevel": "PARTIALLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000028",
+                        "other": null
+                    },
+                    "validatedAs": "17148",
+                    "otherValidationAuthorities": []
+                },
+                "bic": null
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/direct-parent-reporting-exception"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/ultimate-parent-reporting-exception"
+                    }
+                },
+                "direct-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/direct-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/direct-children"
+                    }
+                },
+                "ultimate-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/ultimate-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/ultimate-children"
+                    }
+                },
+                "isins": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21\/isins"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800U1K395G8PK4I21"
+            }
+        },
+        {
+            "type": "lei-records",
+            "id": "213800FF2R23ALJQOP04",
+            "attributes": {
+                "lei": "213800FF2R23ALJQOP04",
+                "entity": {
+                    "legalName": {
+                        "name": "DIRECT LINE INSURANCE GROUP PLC",
+                        "language": "en"
+                    },
+                    "otherNames": [
+                        {
+                            "name": "DIRECT LINE INSURANCE GROUP LIMITED",
+                            "language": "en",
+                            "type": "PREVIOUS_LEGAL_NAME"
+                        }
+                    ],
+                    "transliteratedOtherNames": [],
+                    "legalAddress": {
+                        "language": "en",
+                        "addressLines": [
+                            "CHURCHILL COURT",
+                            "WESTMORELAND ROAD"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "BROMLEY",
+                        "region": "GB-LND",
+                        "country": "GB",
+                        "postalCode": "BR1 1DP"
+                    },
+                    "headquartersAddress": {
+                        "language": "en",
+                        "addressLines": [
+                            "CHURCHILL COURT",
+                            "WESTMORELAND ROAD"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "BROMLEY",
+                        "region": "GB-LND",
+                        "country": "GB",
+                        "postalCode": "BR1 1DP"
+                    },
+                    "registeredAt": {
+                        "id": "RA000585",
+                        "other": null
+                    },
+                    "registeredAs": "02280426",
+                    "jurisdiction": "GB",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "B6ES",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": "1988-07-26T00:00:00Z",
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2014-08-04T00:00:00Z",
+                    "lastUpdateDate": "2022-05-11T06:49:15Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2023-06-27T00:00:00Z",
+                    "managingLou": "213800WAVVOPS85N2205",
+                    "corroborationLevel": "FULLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000585",
+                        "other": null
+                    },
+                    "validatedAs": "02280426",
+                    "otherValidationAuthorities": []
+                },
+                "bic": null
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/direct-parent-reporting-exception"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/ultimate-parent-reporting-exception"
+                    }
+                },
+                "direct-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/direct-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/direct-children"
+                    }
+                },
+                "ultimate-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/ultimate-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/ultimate-children"
+                    }
+                },
+                "isins": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04\/isins"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/213800FF2R23ALJQOP04"
+            }
+        },
+        {
+            "type": "lei-records",
+            "id": "259400T6CRXYOG6H8U09",
+            "attributes": {
+                "lei": "259400T6CRXYOG6H8U09",
+                "entity": {
+                    "legalName": {
+                        "name": "ZE PAK Sp\u00f3\u0142ka Akcyjna",
+                        "language": "pl-PL"
+                    },
+                    "otherNames": [],
+                    "transliteratedOtherNames": [
+                        {
+                            "name": "ZE PAK SPOLKA AKCYJNA",
+                            "language": "pl-PL",
+                            "type": "PREFERRED_ASCII_TRANSLITERATED_LEGAL_NAME"
+                        }
+                    ],
+                    "legalAddress": {
+                        "language": "pl-PL",
+                        "addressLines": [
+                            "Konin Kazimierska 45"
+                        ],
+                        "addressNumber": "45",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Konin",
+                        "region": "PL-30",
+                        "country": "PL",
+                        "postalCode": "62-510"
+                    },
+                    "headquartersAddress": {
+                        "language": "pl-PL",
+                        "addressLines": [
+                            "Konin Kazimierska 45"
+                        ],
+                        "addressNumber": "45",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Konin",
+                        "region": "PL-30",
+                        "country": "PL",
+                        "postalCode": "62-510"
+                    },
+                    "registeredAt": {
+                        "id": "RA000484",
+                        "other": null
+                    },
+                    "registeredAs": "0000021374",
+                    "jurisdiction": "PL",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "FJ0E",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": null,
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2014-02-03T18:31:21Z",
+                    "lastUpdateDate": "2022-03-01T09:15:11Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2023-01-31T18:31:20Z",
+                    "managingLou": "259400L3KBYEVNHEJF55",
+                    "corroborationLevel": "FULLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000484",
+                        "other": null
+                    },
+                    "validatedAs": "0000021374",
+                    "otherValidationAuthorities": []
+                },
+                "bic": null
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "relationship-record": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/direct-parent-relationship",
+                        "lei-record": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/direct-parent"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "relationship-record": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/ultimate-parent-relationship",
+                        "lei-record": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/ultimate-parent"
+                    }
+                },
+                "direct-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/direct-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/direct-children"
+                    }
+                },
+                "isins": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09\/isins"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400T6CRXYOG6H8U09"
+            }
+        },
+        {
+            "type": "lei-records",
+            "id": "259400NAPDFBOTNCRL54",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "entity": {
+                    "legalName": {
+                        "name": "TAURON Polska Energia Sp\u00f3\u0142ka Akcyjna",
+                        "language": "pl-PL"
+                    },
+                    "otherNames": [],
+                    "transliteratedOtherNames": [
+                        {
+                            "name": "TAURON Polska Energia Spolka Akcyjna",
+                            "language": "pl-PL",
+                            "type": "PREFERRED_ASCII_TRANSLITERATED_LEGAL_NAME"
+                        }
+                    ],
+                    "legalAddress": {
+                        "language": "pl-PL",
+                        "addressLines": [
+                            "Katowice ks. Piotra \u015aciegiennego 3"
+                        ],
+                        "addressNumber": "3",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Katowice",
+                        "region": "PL-24",
+                        "country": "PL",
+                        "postalCode": "40-114"
+                    },
+                    "headquartersAddress": {
+                        "language": "pl-PL",
+                        "addressLines": [
+                            "Katowice ks. Piotra \u015aciegiennego 3"
+                        ],
+                        "addressNumber": "3",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Katowice",
+                        "region": "PL-24",
+                        "country": "PL",
+                        "postalCode": "40-114"
+                    },
+                    "registeredAt": {
+                        "id": "RA000484",
+                        "other": null
+                    },
+                    "registeredAs": "0000271562",
+                    "jurisdiction": "PL",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "FJ0E",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": null,
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2014-02-03T18:31:21Z",
+                    "lastUpdateDate": "2022-03-01T09:15:11Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2023-01-31T18:31:20Z",
+                    "managingLou": "259400L3KBYEVNHEJF55",
+                    "corroborationLevel": "FULLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000484",
+                        "other": null
+                    },
+                    "validatedAs": "0000271562",
+                    "otherValidationAuthorities": []
+                },
+                "bic": null
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/direct-parent-reporting-exception"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/ultimate-parent-reporting-exception"
+                    }
+                },
+                "direct-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/direct-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/direct-children"
+                    }
+                },
+                "ultimate-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/ultimate-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/ultimate-children"
+                    }
+                },
+                "isins": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/isins"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54"
+            }
+        },
+        {
+            "type": "lei-records",
+            "id": "7CUNS533WID6K7DGFI87",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "entity": {
+                    "legalName": {
+                        "name": "CAIXABANK SA",
+                        "language": "es"
+                    },
+                    "otherNames": [],
+                    "transliteratedOtherNames": [],
+                    "legalAddress": {
+                        "language": "es",
+                        "addressLines": [
+                            "CALLE PINTOR SOROLLA 2 - 4"
+                        ],
+                        "addressNumber": "2 - 4",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Valencia",
+                        "region": null,
+                        "country": "ES",
+                        "postalCode": "46002"
+                    },
+                    "headquartersAddress": {
+                        "language": "es",
+                        "addressLines": [
+                            "CALLE PINTOR SOROLLA 2 - 4"
+                        ],
+                        "addressNumber": "2 - 4",
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Valencia",
+                        "region": null,
+                        "country": "ES",
+                        "postalCode": "46002"
+                    },
+                    "registeredAt": {
+                        "id": "RA000533",
+                        "other": null
+                    },
+                    "registeredAs": "V-178351-8",
+                    "jurisdiction": "ES",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "5RDO",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": null,
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2012-06-06T15:51:00Z",
+                    "lastUpdateDate": "2022-03-08T11:15:16Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2023-04-01T00:19:00Z",
+                    "managingLou": "959800R2X69K6Y6MX775",
+                    "corroborationLevel": "FULLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000533",
+                        "other": null
+                    },
+                    "validatedAs": "V-178351-8",
+                    "otherValidationAuthorities": [
+                        {
+                            "validatedAt": {
+                                "id": "RA000535"
+                            },
+                            "validatedAs": "A08663619"
+                        }
+                    ]
+                },
+                "bic": [
+                    "CAIXESBBXXX"
+                ]
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/direct-parent-reporting-exception"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "reporting-exception": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/ultimate-parent-reporting-exception"
+                    }
+                },
+                "direct-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/direct-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/direct-children"
+                    }
+                },
+                "ultimate-children": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/ultimate-child-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/ultimate-children"
+                    }
+                },
+                "branches": {
+                    "links": {
+                        "relationship-records": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/branch-relationships",
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/branches"
+                    }
+                },
+                "isins": {
+                    "links": {
+                        "related": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/isins"
+                    }
+                }
+            },
+            "links": {
+                "self": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87"
+            }
+        }
+    ]
+}

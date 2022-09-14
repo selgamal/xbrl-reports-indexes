@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>All XBRL Data Submitted to the SEC for 2022-07</title>
+    <link>https://www.sec.gov/spotlight/xbrl/filings-and-feeds.shtml</link>
+    <atom:link href="https://www.sec.gov/Archives/edgar/monthly/xbrlrss-2022-07.xml" rel="self" type="application/rss+xml" xmlns:atom="https://www.w3.org/2005/Atom"/>
+    <description>This is a MOCK list of the filings containing XBRL for 2022-07</description>
+    <language>en-us</language>
+    <pubDate>Sun, 31 Jul 2022 00:00:00 EDT</pubDate>
+    <lastBuildDate>Sun, 31 Jul 2022 00:00:00 EDT</lastBuildDate>
+    <item>
+        <title>Aspiriant Trust (0001534881) (Filer)</title>
+        <link>https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/0001398344-22-014405-index.htm</link>
+        <guid>https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/0001398344-22-014405-xbrl.zip</guid>
+        <enclosure url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/0001398344-22-014405-xbrl.zip" length="327397" type="application/zip" />
+        <description>485BPOS</description>
+        <pubDate>Fri, 29 Jul 2022 17:30:40 EDT</pubDate>
+        <edgar:xbrlFiling xmlns:edgar="https://www.sec.gov/Archives/edgar">
+          <edgar:companyName>Aspiriant Trust</edgar:companyName>
+          <edgar:formType>485BPOS</edgar:formType>
+          <edgar:filingDate>07/29/2022</edgar:filingDate>
+          <edgar:cikNumber>0001534881</edgar:cikNumber>
+          <edgar:accessionNumber>0001398344-22-014405</edgar:accessionNumber>
+          <edgar:fileNumber>811-22648</edgar:fileNumber>
+          <edgar:acceptanceDatetime>20220729173040</edgar:acceptanceDatetime>
+          <edgar:fiscalYearEnd>0228</edgar:fiscalYearEnd>
+          <edgar:xbrlFiles>
+            <edgar:xbrlFile edgar:sequence="1" edgar:file="fp0078160_485bpos-ixbrl.htm" edgar:type="485BPOS" edgar:size="2188769" edgar:description="" edgar:inlineXBRL="true" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0078160_485bpos-ixbrl.htm" />
+            <edgar:xbrlFile edgar:sequence="2" edgar:file="fp0078160_ex9928j.htm" edgar:type="EX-99.28.J" edgar:size="1830" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0078160_ex9928j.htm" />
+            <edgar:xbrlFile edgar:sequence="4" edgar:file="aspiriant-20220801.xsd" edgar:type="EX-101.SCH" edgar:size="8075" edgar:description="XBRL SCHEMA FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/aspiriant-20220801.xsd" />
+            <edgar:xbrlFile edgar:sequence="5" edgar:file="aspiriant-20220801_def.xml" edgar:type="EX-101.DEF" edgar:size="94918" edgar:description="XBRL DEFINITION FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/aspiriant-20220801_def.xml" />
+            <edgar:xbrlFile edgar:sequence="6" edgar:file="aspiriant-20220801_lab.xml" edgar:type="EX-101.LAB" edgar:size="131449" edgar:description="XBRL LABEL FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/aspiriant-20220801_lab.xml" />
+            <edgar:xbrlFile edgar:sequence="7" edgar:file="aspiriant-20220801_pre.xml" edgar:type="EX-101.PRE" edgar:size="174407" edgar:description="XBRL PRESENTATION FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/aspiriant-20220801_pre.xml" />
+            <edgar:xbrlFile edgar:sequence="8" edgar:file="aspiriant-20220801_cal.xml" edgar:type="EX-101.CAL" edgar:size="7888" edgar:description="XBRL CALCULATION FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/aspiriant-20220801_cal.xml" />
+            <edgar:xbrlFile edgar:sequence="9" edgar:file="fp0075582_51a.jpg" edgar:type="GRAPHIC" edgar:size="3318" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0075582_51a.jpg" />
+            <edgar:xbrlFile edgar:sequence="10" edgar:file="fp0075582_52a.jpg" edgar:type="GRAPHIC" edgar:size="3318" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0075582_52a.jpg" />
+            <edgar:xbrlFile edgar:sequence="11" edgar:file="fp0075582_53a.jpg" edgar:type="GRAPHIC" edgar:size="3318" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0075582_53a.jpg" />
+            <edgar:xbrlFile edgar:sequence="12" edgar:file="fp0075582_54a.jpg" edgar:type="GRAPHIC" edgar:size="3318" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0075582_54a.jpg" />
+            <edgar:xbrlFile edgar:sequence="13" edgar:file="fp0078160_03.jpg" edgar:type="GRAPHIC" edgar:size="3623" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0078160_03.jpg" />
+            <edgar:xbrlFile edgar:sequence="14" edgar:file="fp0078160_04.jpg" edgar:type="GRAPHIC" edgar:size="3186" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/fp0078160_04.jpg" />
+            <edgar:xbrlFile edgar:sequence="15" edgar:file="ml_logo.jpg" edgar:type="GRAPHIC" edgar:size="6011" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/ml_logo.jpg" />
+            <edgar:xbrlFile edgar:sequence="16" edgar:file="image_001.jpg" edgar:type="GRAPHIC" edgar:size="1703" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/image_001.jpg" />
+            <edgar:xbrlFile edgar:sequence="17" edgar:file="ml_t.jpg" edgar:type="GRAPHIC" edgar:size="819" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/ml_t.jpg" />
+            <edgar:xbrlFile edgar:sequence="18" edgar:file="ml_f.jpg" edgar:type="GRAPHIC" edgar:size="818" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1534881/000139834422014405/ml_f.jpg" />
+          </edgar:xbrlFiles>
+        </edgar:xbrlFiling>
+      </item>
+      <item>
+        <title>Fiera Capital Series Trust (0001691994) (Filer)</title>
+        <link>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/0001398344-22-014404-index.htm</link>
+        <guid>https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/0001398344-22-014404-xbrl.zip</guid>
+        <enclosure url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/0001398344-22-014404-xbrl.zip" length="180407" type="application/zip" />
+        <description>485BPOS</description>
+        <pubDate>Fri, 29 Jul 2022 17:29:51 EDT</pubDate>
+        <edgar:xbrlFiling xmlns:edgar="https://www.sec.gov/Archives/edgar">
+          <edgar:companyName>Fiera Capital Series Trust</edgar:companyName>
+          <edgar:formType>485BPOS</edgar:formType>
+          <edgar:filingDate>07/29/2022</edgar:filingDate>
+          <edgar:cikNumber>0001691994</edgar:cikNumber>
+          <edgar:accessionNumber>0001398344-22-014404</edgar:accessionNumber>
+          <edgar:fileNumber>811-23220</edgar:fileNumber>
+          <edgar:acceptanceDatetime>20220729172951</edgar:acceptanceDatetime>
+          <edgar:fiscalYearEnd>1031</edgar:fiscalYearEnd>
+          <edgar:xbrlFiles>
+            <edgar:xbrlFile edgar:sequence="1" edgar:file="fp0078096_485bpos-ixbrl.htm" edgar:type="485BPOS" edgar:size="879502" edgar:description="" edgar:inlineXBRL="true" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fp0078096_485bpos-ixbrl.htm" />
+            <edgar:xbrlFile edgar:sequence="2" edgar:file="fp0078096_ex9928h28.htm" edgar:type="EX-99.28.H.28" edgar:size="18278" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fp0078096_ex9928h28.htm" />
+            <edgar:xbrlFile edgar:sequence="3" edgar:file="fp0078096_ex9928j1.htm" edgar:type="EX-99.28.J.1" edgar:size="1596" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fp0078096_ex9928j1.htm" />
+            <edgar:xbrlFile edgar:sequence="5" edgar:file="fiera-20220729_lab.xml" edgar:type="EX-101.LAB" edgar:size="126168" edgar:description="XBRL LABEL FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fiera-20220729_lab.xml" />
+            <edgar:xbrlFile edgar:sequence="6" edgar:file="fiera-20220729_pre.xml" edgar:type="EX-101.PRE" edgar:size="152088" edgar:description="XBRL PRESENTATION FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fiera-20220729_pre.xml" />
+            <edgar:xbrlFile edgar:sequence="7" edgar:file="fiera-20220729.xsd" edgar:type="EX-101.SCH" edgar:size="6122" edgar:description="XBRL SCHEMA FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fiera-20220729.xsd" />
+            <edgar:xbrlFile edgar:sequence="8" edgar:file="fiera-20220729_cal.xml" edgar:type="EX-101.CAL" edgar:size="7648" edgar:description="XBRL CALCULATION FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fiera-20220729_cal.xml" />
+            <edgar:xbrlFile edgar:sequence="9" edgar:file="fiera-20220729_def.xml" edgar:type="EX-101.DEF" edgar:size="75870" edgar:description="XBRL DEFINITION FILE" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fiera-20220729_def.xml" />
+            <edgar:xbrlFile edgar:sequence="10" edgar:file="fp0078096_01.jpg" edgar:type="GRAPHIC" edgar:size="7790" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fp0078096_01.jpg" />
+            <edgar:xbrlFile edgar:sequence="11" edgar:file="fp0078096_02.jpg" edgar:type="GRAPHIC" edgar:size="27809" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fp0078096_02.jpg" />
+            <edgar:xbrlFile edgar:sequence="12" edgar:file="fp0078096-sai_03.jpg" edgar:type="GRAPHIC" edgar:size="10022" edgar:description="GRAPHIC" edgar:url="https://www.sec.gov/Archives/edgar/data/1691994/000139834422014404/fp0078096-sai_03.jpg" />
+          </edgar:xbrlFiles>
+        </edgar:xbrlFiling>
+      </item>
+    </channel>
+</rss>

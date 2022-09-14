@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+  <channel>
+    <title>All XBRL Data Submitted to the SEC for 2022-09</title>
+    <link>https://www.sec.gov/spotlight/xbrl/filings-and-feeds.shtml</link>
+    <atom:link href="https://www.sec.gov/Archives/edgar/monthly/xbrlrss-2022-09.xml" rel="self" type="application/rss+xml" xmlns:atom="https://www.w3.org/2005/Atom"/>
+    <description>This is a MOCK list of the filings containing XBRL for 2022-09</description>
+    <language>en-us</language>
+    <pubDate>Thu, 07 Sep 2022 00:00:00 EDT</pubDate>
+    <lastBuildDate>Thu, 07 Sep 2022 00:00:00 EDT</lastBuildDate>
+    <item>
+        <title>Strawberry Fields REIT, Inc. (0001782430) (Filer)</title>
+        <link>https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/0001493152-22-025397-index.htm</link>
+        <guid>https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/0001493152-22-025397-xbrl.zip</guid>
+        <enclosure url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/0001493152-22-025397-xbrl.zip" length="286235" type="application/zip" />
+        <description>10-Q</description>
+        <pubDate>Thu, 08 Sep 2022 17:29:28 EDT</pubDate>
+        <edgar:xbrlFiling xmlns:edgar="https://www.sec.gov/Archives/edgar">
+          <edgar:companyName>Strawberry Fields REIT, Inc.</edgar:companyName>
+          <edgar:formType>10-Q</edgar:formType>
+          <edgar:filingDate>09/08/2022</edgar:filingDate>
+          <edgar:cikNumber>0001782430</edgar:cikNumber>
+          <edgar:accessionNumber>0001493152-22-025397</edgar:accessionNumber>
+          <edgar:fileNumber>000-56451</edgar:fileNumber>
+          <edgar:acceptanceDatetime>20220908172928</edgar:acceptanceDatetime>
+          <edgar:period>20220630</edgar:period>
+          <edgar:assistantDirector>Office of Real Estate &amp; Construction</edgar:assistantDirector>
+          <edgar:assignedSic>6798</edgar:assignedSic>
+          <edgar:fiscalYearEnd>1231</edgar:fiscalYearEnd>
+          <edgar:xbrlFiles>
+            <edgar:xbrlFile edgar:sequence="1" edgar:file="form10-q.htm" edgar:type="10-Q" edgar:size="2216842" edgar:description="" edgar:inlineXBRL="true" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/form10-q.htm" />
+            <edgar:xbrlFile edgar:sequence="2" edgar:file="ex10-1.htm" edgar:type="EX-10.1" edgar:size="102407" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex10-1.htm" />
+            <edgar:xbrlFile edgar:sequence="3" edgar:file="ex10-2.htm" edgar:type="EX-10.2" edgar:size="102406" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex10-2.htm" />
+            <edgar:xbrlFile edgar:sequence="4" edgar:file="ex10-3.htm" edgar:type="EX-10.3" edgar:size="102409" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex10-3.htm" />
+            <edgar:xbrlFile edgar:sequence="5" edgar:file="ex10-4.htm" edgar:type="EX-10.4" edgar:size="102409" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex10-4.htm" />
+            <edgar:xbrlFile edgar:sequence="6" edgar:file="ex10-5.htm" edgar:type="EX-10.5" edgar:size="102409" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex10-5.htm" />
+            <edgar:xbrlFile edgar:sequence="7" edgar:file="ex31-1.htm" edgar:type="EX-31.1" edgar:size="14235" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex31-1.htm" />
+            <edgar:xbrlFile edgar:sequence="8" edgar:file="ex31-2.htm" edgar:type="EX-31.2" edgar:size="9304" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex31-2.htm" />
+            <edgar:xbrlFile edgar:sequence="9" edgar:file="ex32-1.htm" edgar:type="EX-32.1" edgar:size="4713" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex32-1.htm" />
+            <edgar:xbrlFile edgar:sequence="10" edgar:file="ex32-2.htm" edgar:type="EX-32.2" edgar:size="4718" edgar:description="" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/ex32-2.htm" />
+            <edgar:xbrlFile edgar:sequence="11" edgar:file="sfri-20220630.xsd" edgar:type="EX-101.SCH" edgar:size="62419" edgar:description="INLINE XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/sfri-20220630.xsd" />
+            <edgar:xbrlFile edgar:sequence="12" edgar:file="sfri-20220630_cal.xml" edgar:type="EX-101.CAL" edgar:size="79381" edgar:description="INLINE XBRL TAXONOMY EXTENSION CALCULATION LINKBASE DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/sfri-20220630_cal.xml" />
+            <edgar:xbrlFile edgar:sequence="13" edgar:file="sfri-20220630_def.xml" edgar:type="EX-101.DEF" edgar:size="200391" edgar:description="INLINE XBRL TAXONOMY EXTENSION DEFINITION LINKBASE DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/sfri-20220630_def.xml" />
+            <edgar:xbrlFile edgar:sequence="14" edgar:file="sfri-20220630_lab.xml" edgar:type="EX-101.LAB" edgar:size="434112" edgar:description="INLINE XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/sfri-20220630_lab.xml" />
+            <edgar:xbrlFile edgar:sequence="15" edgar:file="sfri-20220630_pre.xml" edgar:type="EX-101.PRE" edgar:size="313795" edgar:description="INLINE XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT" edgar:url="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/sfri-20220630_pre.xml" />
+          </edgar:xbrlFiles>
+        </edgar:xbrlFiling>
+      </item>
+    </channel>
+</rss>

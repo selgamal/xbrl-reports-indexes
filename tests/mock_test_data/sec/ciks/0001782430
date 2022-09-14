@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <addresses>
+        <address type="mailing">
+          <city>CHICAGO</city>
+          <state>IL</state>
+          <street1>5683 NORTH LINCOLN AVE.</street1>
+          <zip>60659</zip>
+        </address>
+        <address type="business">
+          <city>SOUTH BEND</city>
+          <phone>(574) 807-0800</phone>
+          <state>IN</state>
+          <street1>6101 NIMTZ PARKWAY</street1>
+          <zip>46628</zip>
+        </address>
+      </addresses>
+      <assigned-sic>6798</assigned-sic>
+      <assigned-sic-desc>REAL ESTATE INVESTMENT TRUSTS</assigned-sic-desc>
+      <assigned-sic-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;SIC=6798&amp;owner=include&amp;count=40</assigned-sic-href>
+      <cik>0001782430</cik>
+      <cik-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001782430&amp;owner=include&amp;count=40</cik-href>
+      <conformed-name>Strawberry Fields REIT, Inc.</conformed-name>
+      <fiscal-year-end>1231</fiscal-year-end>
+      <office>Office of Real Estate &amp;amp; Construction</office>
+      <state-location>IN</state-location>
+      <state-location-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;State=IN&amp;owner=include&amp;count=40</state-location-href>
+      <state-of-incorporation>MD</state-of-incorporation>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="10-Q" />
+      <content type="text/xml">
+        <accession-number>0001493152-22-025397</accession-number>
+        <act>34</act>
+        <file-number>000-56451</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=000-56451&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-09-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/0001493152-22-025397-index.htm</filing-href>
+        <filing-type>10-Q</filing-type>
+        <film-number>221234576</film-number>
+        <form-name>Quarterly report [Sections 13 or 15(d)]</form-name>
+        <size>11 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1782430&amp;accession_number=0001493152-22-025397&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-22-025397</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315222025397/0001493152-22-025397-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-09-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-22-025397 &lt;b&gt;Size:&lt;/b&gt; 11 MB</summary>
+      <title>10-Q  - Quarterly report [Sections 13 or 15(d)]</title>
+      <updated>2022-09-08T17:29:28-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="UPLOAD" />
+      <content type="text/xml">
+        <accession-number>0000000000-22-007913</accession-number>
+        <filing-date>2022-07-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000000000022007913/0000000000-22-007913-index.htm</filing-href>
+        <filing-type>UPLOAD</filing-type>
+        <form-name>SEC-generated letter</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>39 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000000000-22-007913</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000000000022007913/0000000000-22-007913-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-28 &lt;b&gt;AccNo:&lt;/b&gt; 0000000000-22-007913 &lt;b&gt;Size:&lt;/b&gt; 39 KB</summary>
+      <title>UPLOAD [Cover] - SEC-generated letter</title>
+      <updated>2022-07-28T09:30:05-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001493152-22-019093</accession-number>
+        <filing-date>2022-07-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315222019093/0001493152-22-019093-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>50 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-22-019093</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315222019093/0001493152-22-019093-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-22-019093 &lt;b&gt;Size:&lt;/b&gt; 50 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2022-07-12T17:26:54-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="10-12G/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-22-019091</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>000-56451</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=000-56451&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-07-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315222019091/0001493152-22-019091-index.htm</filing-href>
+        <filing-type>10-12G/A</filing-type>
+        <film-number>221079747</film-number>
+        <form-name>Registration of securities [Section 12(g)]</form-name>
+        <size>15 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-22-019091</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315222019091/0001493152-22-019091-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-22-019091 &lt;b&gt;Size:&lt;/b&gt; 15 MB</summary>
+      <title>10-12G/A [Amend]  - Registration of securities [Section 12(g)]</title>
+      <updated>2022-07-12T17:24:33-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="UPLOAD" />
+      <content type="text/xml">
+        <accession-number>0000000000-22-006888</accession-number>
+        <filing-date>2022-06-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000000000022006888/0000000000-22-006888-index.htm</filing-href>
+        <filing-type>UPLOAD</filing-type>
+        <form-name>SEC-generated letter</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>47 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000000000-22-006888</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000000000022006888/0000000000-22-006888-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-06-27 &lt;b&gt;AccNo:&lt;/b&gt; 0000000000-22-006888 &lt;b&gt;Size:&lt;/b&gt; 47 KB</summary>
+      <title>UPLOAD [Cover] - SEC-generated letter</title>
+      <updated>2022-06-27T18:30:10-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="RW" />
+      <content type="text/xml">
+        <accession-number>0001493152-22-015596</accession-number>
+        <act>NE</act>
+        <file-number>333-263889</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-263889&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-06-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315222015596/0001493152-22-015596-index.htm</filing-href>
+        <filing-type>RW</filing-type>
+        <film-number>22987432</film-number>
+        <form-name>Registration Withdrawal Request</form-name>
+        <size>12 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-22-015596</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315222015596/0001493152-22-015596-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-06-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-22-015596 &lt;b&gt;Size:&lt;/b&gt; 12 KB</summary>
+      <title>RW  - Registration Withdrawal Request</title>
+      <updated>2022-06-01T16:10:44-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="10-12G" />
+      <content type="text/xml">
+        <accession-number>0001493152-22-015418</accession-number>
+        <act>34</act>
+        <file-number>000-56451</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=000-56451&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-05-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315222015418/0001493152-22-015418-index.htm</filing-href>
+        <filing-type>10-12G</filing-type>
+        <film-number>22980296</film-number>
+        <form-name>Registration of securities [Section 12(g)]</form-name>
+        <size>13 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-22-015418</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315222015418/0001493152-22-015418-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-22-015418 &lt;b&gt;Size:&lt;/b&gt; 13 MB</summary>
+      <title>10-12G  - Registration of securities [Section 12(g)]</title>
+      <updated>2022-05-31T06:10:23-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="S-11" />
+      <content type="text/xml">
+        <accession-number>0001493152-22-007851</accession-number>
+        <act>33</act>
+        <file-number>333-263889</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-263889&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-03-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315222007851/0001493152-22-007851-index.htm</filing-href>
+        <filing-type>S-11</filing-type>
+        <film-number>22774821</film-number>
+        <form-name>Registration of securities issued by real estate companies</form-name>
+        <size>14 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-22-007851</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315222007851/0001493152-22-007851-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-03-28 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-22-007851 &lt;b&gt;Size:&lt;/b&gt; 14 MB</summary>
+      <title>S-11  - Registration of securities issued by real estate companies</title>
+      <updated>2022-03-28T14:12:20-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-22-002748</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-01-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315222002748/0001493152-22-002748-index.htm</filing-href>
+        <filing-type>DRS/A</filing-type>
+        <film-number>22574730</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>13 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-22-002748</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315222002748/0001493152-22-002748-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-01-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-22-002748 &lt;b&gt;Size:&lt;/b&gt; 13 MB</summary>
+      <title>DRS/A [Amend] [Cover] - Draft Registration Statement</title>
+      <updated>2022-01-31T16:55:16-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-21-031180</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-12-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315221031180/0001493152-21-031180-index.htm</filing-href>
+        <filing-type>DRS/A</filing-type>
+        <film-number>211486916</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>13 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-21-031180</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315221031180/0001493152-21-031180-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-12-13 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-21-031180 &lt;b&gt;Size:&lt;/b&gt; 13 MB</summary>
+      <title>DRS/A [Amend] [Cover] - Draft Registration Statement</title>
+      <updated>2021-12-13T06:26:00-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-21-024307</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-10-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315221024307/0001493152-21-024307-index.htm</filing-href>
+        <filing-type>DRS/A</filing-type>
+        <film-number>211298329</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>19 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-21-024307</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315221024307/0001493152-21-024307-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-10-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-21-024307 &lt;b&gt;Size:&lt;/b&gt; 19 MB</summary>
+      <title>DRS/A [Amend] [Cover] - Draft Registration Statement</title>
+      <updated>2021-10-01T14:14:42-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-21-001266</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-01-19</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315221001266/0001493152-21-001266-index.htm</filing-href>
+        <filing-type>DRS/A</filing-type>
+        <film-number>21534473</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>11 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-21-001266</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315221001266/0001493152-21-001266-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-01-19 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-21-001266 &lt;b&gt;Size:&lt;/b&gt; 11 MB</summary>
+      <title>DRS/A [Amend] [Cover] - Draft Registration Statement</title>
+      <updated>2021-01-19T10:32:27-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-20-022391</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2020-11-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315220022391/0001493152-20-022391-index.htm</filing-href>
+        <filing-type>DRS/A</filing-type>
+        <film-number>201341838</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>11 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-20-022391</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315220022391/0001493152-20-022391-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2020-11-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-20-022391 &lt;b&gt;Size:&lt;/b&gt; 11 MB</summary>
+      <title>DRS/A [Amend] [Cover] - Draft Registration Statement</title>
+      <updated>2020-11-24T12:56:38-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-20-012417</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2020-07-02</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315220012417/0001493152-20-012417-index.htm</filing-href>
+        <filing-type>DRS/A</filing-type>
+        <film-number>201006641</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>9 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-20-012417</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315220012417/0001493152-20-012417-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2020-07-02 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-20-012417 &lt;b&gt;Size:&lt;/b&gt; 9 MB</summary>
+      <title>DRS/A [Amend] [Cover] - Draft Registration Statement</title>
+      <updated>2020-07-01T19:40:29-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS/A" />
+      <content type="text/xml">
+        <accession-number>0001493152-20-007881</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2020-05-07</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315220007881/0001493152-20-007881-index.htm</filing-href>
+        <filing-type>DRS/A</filing-type>
+        <film-number>20855049</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>9 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-20-007881</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315220007881/0001493152-20-007881-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2020-05-07 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-20-007881 &lt;b&gt;Size:&lt;/b&gt; 9 MB</summary>
+      <title>DRS/A [Amend] [Cover] - Draft Registration Statement</title>
+      <updated>2020-05-07T10:36:43-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="DRS" />
+      <content type="text/xml">
+        <accession-number>0001493152-20-000484</accession-number>
+        <act>33</act>
+        <file-number>377-02994</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02994&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2020-01-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315220000484/0001493152-20-000484-index.htm</filing-href>
+        <filing-type>DRS</filing-type>
+        <film-number>20522651</film-number>
+        <form-name>Draft Registration Statement</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>9 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-20-000484</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315220000484/0001493152-20-000484-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2020-01-13 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-20-000484 &lt;b&gt;Size:&lt;/b&gt; 9 MB</summary>
+      <title>DRS [Cover] - Draft Registration Statement</title>
+      <updated>2020-01-13T06:11:20-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="RW" />
+      <content type="text/xml">
+        <accession-number>0001493152-19-010748</accession-number>
+        <act>NE</act>
+        <file-number>377-02730</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=377-02730&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2019-07-17</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1782430/000149315219010748/0001493152-19-010748-index.htm</filing-href>
+        <filing-type>RW</filing-type>
+        <film-number>19959783</film-number>
+        <form-name>Registration Withdrawal Request</form-name>
+        <size>11 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001493152-19-010748</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1782430/000149315219010748/0001493152-19-010748-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2019-07-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-19-010748 &lt;b&gt;Size:&lt;/b&gt; 11 KB</summary>
+      <title>RW  - Registration Withdrawal Request</title>
+      <updated>2019-07-17T17:21:51-04:00</updated>
+    </entry>
+    <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001782430</id>
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001782430&amp;action=getcompany&amp;start=0&amp;count=40" rel="alternate" type="text/html" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001782430&amp;action=getcompany&amp;start=0&amp;count=40&amp;output=atom" rel="self" type="application/atom+xml" />
+    <title>Strawberry Fields REIT, Inc.  (0001782430)</title>
+    <updated>2022-09-09T04:32:48-04:00</updated>
+  </feed>

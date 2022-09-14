@@ -1,0 +1,10 @@
+__pycache__/
+scratches/
+.mypy_cache/
+.pytest_cache/
+.vscode/
+.tox/
+dist/
+src/*.egg-info
+.python-version
+.github

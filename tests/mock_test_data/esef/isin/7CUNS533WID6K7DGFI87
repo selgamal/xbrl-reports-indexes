@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "goldenCopy": {
+            "publishDate": "2022-09-09T00:00:00Z"
+        },
+        "pagination": {
+            "currentPage": 1,
+            "perPage": 15,
+            "from": 1,
+            "to": 15,
+            "total": 71,
+            "lastPage": 5
+        }
+    },
+    "links": {
+        "first": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/isins?page%5Bnumber%5D=1&page%5Bsize%5D=15",
+        "next": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/isins?page%5Bnumber%5D=2&page%5Bsize%5D=15",
+        "last": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/7CUNS533WID6K7DGFI87\/isins?page%5Bnumber%5D=5&page%5Bsize%5D=15"
+    },
+    "data": [
+        {
+            "type": "isins",
+            "id": "542641b1-a338-4e7b-8af2-1f1d7cf3efd3",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0440609461"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "2aa1b2c7-4e78-4f36-b7b1-550fd0b3d4af",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0840609038"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "754346c2-29cd-4ec9-8ca7-3ee64b429341",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0440609446"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "d7c8a6ee-ba10-409f-90e0-e9b4c22e2ca2",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0440609404"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "1e7e6e3a-e7dc-4a48-8b89-f5fa95947009",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0440609412"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "40df0fef-6418-4576-8042-c10017d077db",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0S00001115"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "aee0bcf6-6f93-4b1f-b40a-5ac3867e8542",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "US0664491091"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "b3d18a43-f43b-49d0-a7e8-3ef382bfcca5",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0213307061"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "68c2197d-a344-40d4-9e67-75057a397fe9",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0240609117"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "01270cc3-f6e4-4c6a-adcb-c07c82010ed4",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0840609020"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "a2a12e3a-14b4-4b77-bc27-a6ed16e9db86",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0340609918"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "570414a7-e1c3-4a00-a368-862fcbfa41ba",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0413307143"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "4e899126-c07e-4992-8efd-4807dd93ec78",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "US12803K1097"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "b7768ab6-8e99-4ca6-86bf-63426808a980",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0140609019"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "952b161c-e306-428c-9e6e-342da2723bb5",
+            "attributes": {
+                "lei": "7CUNS533WID6K7DGFI87",
+                "isin": "ES0240609034"
+            }
+        }
+    ]
+}

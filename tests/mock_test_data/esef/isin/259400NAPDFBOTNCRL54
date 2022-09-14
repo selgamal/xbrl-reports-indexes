@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "goldenCopy": {
+            "publishDate": "2022-09-09T00:00:00Z"
+        },
+        "pagination": {
+            "currentPage": 1,
+            "perPage": 15,
+            "from": 1,
+            "to": 7,
+            "total": 7,
+            "lastPage": 1
+        }
+    },
+    "links": {
+        "first": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/isins?page%5Bnumber%5D=1&page%5Bsize%5D=15",
+        "last": "https:\/\/api.gleif.org\/api\/v1\/lei-records\/259400NAPDFBOTNCRL54\/isins?page%5Bnumber%5D=1&page%5Bsize%5D=15"
+    },
+    "data": [
+        {
+            "type": "isins",
+            "id": "3e8c424a-1a16-42eb-8ef7-ec271613ad9e",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "isin": "PLTAURN00011"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "63acf43a-5f98-4374-b18a-9acd463c888e",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "isin": "PLTAURN00045"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "a9224911-66fc-41ab-a396-af976addf62f",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "isin": "PLTAURN00078"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "7a37ac11-bf82-4841-8ef5-a6838445eed3",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "isin": "PLTAURN00052"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "7b4fff01-28f9-4b78-b841-cbca24a6f3f6",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "isin": "US87669W1080"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "7c1b0d46-ac0e-4e0c-a241-53b1411b9404",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "isin": "PLTAURN00060"
+            }
+        },
+        {
+            "type": "isins",
+            "id": "ad323f2e-1c46-4f4b-a3e8-ecebd8454c2d",
+            "attributes": {
+                "lei": "259400NAPDFBOTNCRL54",
+                "isin": "PLO144500017"
+            }
+        }
+    ]
+}

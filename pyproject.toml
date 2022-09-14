@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xbrl-reports-indexes"
+dynamic = ['version']
+description = "Creates and updates a database for indexes of ESEF filings and SEC XBRL filings and filers (only filings metadata NOT filings contents)"
+authors = [
+  { name="Sherif ElGamal", email="selgamal@outlook.com" },
+]
+maintainers = [
+  { name="Sherif ElGamal", email="selgamal@outlook.com" },
+]
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+keywords = ["xbrl", "esef", "sec", "edgar", "listing", "filings", "reports"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Database",
+    "Topic :: Text Processing :: Markup :: XML",
+    "Topic :: Office/Business :: Financial"
+]
+dependencies = [
+    "sqlalchemy", "pycountry", "pytz", "lxml", "python-dateutil", "lxml"
+]
+
+[project.optional-dependencies]
+db = ["psycopg2", "pymysql"]
+
+[project.urls]
+"Homepage" = "https://github.com/selgamal/xbrlreportsindexes"
+"Download" = "https://github.com/selgamal/xbrlreportsindexes"
+"Documentation" = "https://github.com/selgamal/xbrlreportsindexes"
+"Source" = "https://github.com/selgamal/xbrlreportsindexes"
+
+[tool.setuptools]
+platforms = ["linux", "win32"]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = {attr = "xbrlreportsindexes.__version__"}
+
+[project.scripts]
+xri-db-tasks = "xbrlreportsindexes.run_db_tasks:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["xbrlreportsindexes.tests*"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+xfail_strict = true
+
+
+[tool.pylint.master]
+extension-pkg-whitelist="lxml"
+disable="R0913, C0103, R0914, C0302, R0902, W0703, R0801, W0212"
+
+# [tool.flake8]
+# ignore = "E203,E501,W503"
+
+[tool.mypy]
+enable_error_code = "ignore-without-code"
+plugins = "sqlalchemy.ext.mypy.plugin"
+python_version = "3.9"
+show_error_codes = true
+ignore_errors = false
+strict = true
+namespace_packages = true
+mypy_path="arelle-stubs"
+files = "src/xbrlreportsindexes"
+
+[[tool.mypy.overrides]]
+module = 'arelle.*'
+ignore_errors = true

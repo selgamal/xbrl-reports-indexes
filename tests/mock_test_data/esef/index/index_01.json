@@ -1,0 +1,274 @@
+{
+  "213800FF2R23ALJQOP04": {
+    "filings": {
+      "213800FF2R23ALJQOP04/2021-12-31/ESEF/GB/0": {
+        "report-package": "213800FF2R23ALJQOP04-2021-12-31.zip",
+        "date": "2021-12-31",
+        "lei": "213800FF2R23ALJQOP04",
+        "system": "ESEF",
+        "country": "GB",
+        "report": "213800FF2R23ALJQOP04-2021-12-31/reports/213800FF2R23ALJQOP04-2021-12-31-T01.xhtml",
+        "viewer": "213800FF2R23ALJQOP04-2021-12-31/reports/ixbrlviewer.html",
+        "xbrl-json": "213800FF2R23ALJQOP04-2021-12-31-T01.json",
+        "errors": [
+          {
+            "sev": "WARNING",
+            "code": "message:man_PrincipalPlaceOfBusiness",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Principal place of business\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:man_ExplanationOfChangeInNameOfReportingEntityOrOtherMeansOfIdentificationFromEndOfPrecedingReportingPeriod",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Explanation of change in name of reporting entity or other means of identification from end of preceding reporting period\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:man_CountryOfIncorporation",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Country of incorporation\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:man_DomicileOfEntity",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Domicile of entity\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          }
+        ],
+        "added": "2022-04-28"
+      }
+    },
+    "entity": {
+      "name": "DIRECT LINE INSURANCE GROUP PLC"
+    }
+  },
+  "25940037UC4MNP02D242": {
+    "filings": {
+      "25940037UC4MNP02D242/2020-12-31/ESEF/PL/0": {
+        "report-package": "25940037UC4MNP02D242-2020-12-31.zip",
+        "date": "2020-12-31",
+        "lei": "25940037UC4MNP02D242",
+        "system": "ESEF",
+        "country": "PL",
+        "report": "25940037UC4MNP02D242-2020-12-31/reports/25940037UC4MNP02D242-2020-12-31.xhtml",
+        "viewer": "25940037UC4MNP02D242-2020-12-31/reports/ixbrlviewer.html",
+        "xbrl-json": "25940037UC4MNP02D242-2020-12-31.json",
+        "errors": [],
+        "added": "2021-06-08"
+      }
+    },
+    "entity": {
+      "name": "INPRO Sp\u00f3\u0142ka Akcyjna"
+    }
+  },
+  "259400T6CRXYOG6H8U09": {
+    "filings": {
+      "259400T6CRXYOG6H8U09/2021-12-31/ESEF/PL/0": {
+        "report-package": "zep_2021-12-31_pl.zip",
+        "date": "2021-12-31",
+        "lei": "259400T6CRXYOG6H8U09",
+        "system": "ESEF",
+        "country": "PL",
+        "report": "zep_2021-12-31_pl/reports/zep_2021-12-31_pl.xhtml",
+        "viewer": "zep_2021-12-31_pl/reports/ixbrlviewer.html",
+        "xbrl-json": "zep_2021-12-31_pl.json",
+        "errors": [],
+        "added": "2022-05-26"
+      }
+    },
+    "entity": {
+      "name": "ZE PAK Sp\u00f3\u0142ka Akcyjna"
+    }
+  },
+  "7CUNS533WID6K7DGFI87": {
+    "filings": {
+      "7CUNS533WID6K7DGFI87/2021-12-31/ESEF/ES/0": {
+        "report-package": "7CUNS533WID6K7DGFI87-20211231-es.zip",
+        "date": "2021-12-31",
+        "lei": "7CUNS533WID6K7DGFI87",
+        "system": "ESEF",
+        "country": "ES",
+        "report": "7CUNS533WID6K7DGFI87-20211231-es/reports/cabk-2021-12-31.html",
+        "viewer": "7CUNS533WID6K7DGFI87-20211231-es/reports/ixbrlviewer.html",
+        "xbrl-json": "cabk-2021-12-31.json",
+        "errors": [
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:OtherReserves context c4\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:OtherReserves context c2\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:OtherReserves context c7\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "man_ExplanationOfChangeInNameOfReportingEntityOrOtherMeansOfIdentificationFromEndOfPrecedingReportingPeriod"
+          }
+        ],
+        "added": "2022-03-18"
+      },
+      "7CUNS533WID6K7DGFI87/2020-12-31/ESEF/ES/0": {
+        "report-package": "cabk-2020-12-31.zip",
+        "date": "2020-12-31",
+        "lei": "7CUNS533WID6K7DGFI87",
+        "system": "ESEF",
+        "country": "ES",
+        "report": "cabk-2020-12-31/reports/cabk-2020-12-31.html",
+        "viewer": "cabk-2020-12-31/reports/ixbrlviewer.html",
+        "xbrl-json": "cabk-2020-12-31.json",
+        "errors": [
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:OtherReserves context c4\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:ImpairmentLossRecognisedInProfitOrLossIntangibleAssetsAndGoodwill context c5\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:OtherReserves context c7\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:OtherReserves context c2\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:ImpairmentLossRecognisedInProfitOrLossIntangibleAssetsAndGoodwill context c8\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "positive, \n$pos: ifrs-full:ImpairmentLossRecognisedInProfitOrLossIntangibleAssetsAndGoodwill context c1\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "tech_duplicated_facts1, \n$v1: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v2: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v3: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "tech_duplicated_facts1, \n$v1: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v2: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v3: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "tech_duplicated_facts1, \n$v1: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v2: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v3: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "tech_duplicated_facts1, \n$v1: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v2: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v3: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "tech_duplicated_facts1, \n$v1: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v2: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v3: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1\n"
+          },
+          {
+            "sev": "WARNING",
+            "code": "formula:assertionUnsatisfied",
+            "msg": "tech_duplicated_facts1, \n$v1: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v2: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1, \n$v3: ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities context c1\n"
+          }
+        ],
+        "added": "2021-05-19"
+      }
+    },
+    "entity": {
+      "name": "CAIXABANK SA"
+    }
+  },
+  "213800U1K395G8PK4I21": {
+    "filings": {
+      "213800U1K395G8PK4I21/2021-12-31/ESEF/GB/0": {
+        "report-package": "213800U1K395G8PK4I21-2021-12-31.zip",
+        "date": "2021-12-31",
+        "lei": "213800U1K395G8PK4I21",
+        "system": "ESEF",
+        "country": "GB",
+        "report": "213800U1K395G8PK4I21-2021-12-31/reports/213800U1K395G8PK4I21-2021-12-31-T01.xhtml",
+        "viewer": "213800U1K395G8PK4I21-2021-12-31/reports/ixbrlviewer.html",
+        "xbrl-json": "213800U1K395G8PK4I21-2021-12-31-T01.json",
+        "errors": [
+          {
+            "sev": "WARNING",
+            "code": "message:man_PrincipalPlaceOfBusiness",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Principal place of business\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:man_NameOfParentEntity",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Name of parent entity\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:man_ExplanationOfChangeInNameOfReportingEntityOrOtherMeansOfIdentificationFromEndOfPrecedingReportingPeriod",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Explanation of change in name of reporting entity or other means of identification from end of preceding reporting period\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:positive",
+            "msg": "Reported value is below 0"
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:positive",
+            "msg": "Reported value is below 0"
+          },
+          {
+            "sev": "WARNING",
+            "code": "message:man_NameOfUltimateParentOfGroup",
+            "msg": "missingMandatoryMarkups: According to the Regulatory Technical Standards on European Single Electronic Format, the element \"Name of ultimate parent of group\" is part of the mandatory list of tags that must be applied if corresponding information is present in a report. Please make sure that you applied this tag in your report."
+          }
+        ],
+        "added": "2022-05-03"
+      }
+    },
+    "entity": {
+      "name": "OCEAN WILSONS HOLDINGS LIMITED"
+    }
+  },
+  "259400NAPDFBOTNCRL54": {
+    "filings": {
+      "259400NAPDFBOTNCRL54/2021-12-31/ESEF/PL/0": {
+        "report-package": "GKTAURON-SprFinan-2021-12-31-PL.zip",
+        "date": "2021-12-31",
+        "lei": "259400NAPDFBOTNCRL54",
+        "system": "ESEF",
+        "country": "PL",
+        "report": "GKTAURON-SprFinan-2021-12-31-PL/reports/GKTAURON-SprFinan-2021-12-31-PL.xhtml",
+        "viewer": "GKTAURON-SprFinan-2021-12-31-PL/reports/ixbrlviewer.html",
+        "xbrl-json": "GKTAURON-SprFinan-2021-12-31-PL.json",
+        "errors": [],
+        "added": "2022-04-05"
+      },
+      "259400NAPDFBOTNCRL54/2020-12-31/ESEF/PL/0": {
+        "report-package": "esef_GKTPE_SprawozdanieFinansowe2020.zip",
+        "date": "2020-12-31",
+        "lei": "259400NAPDFBOTNCRL54",
+        "system": "ESEF",
+        "country": "PL",
+        "report": "esef_GKTPE_SprawozdanieFinansowe2020/reports/esef_GKTPE_SprawozdanieFinansowe2020.xhtml",
+        "viewer": "esef_GKTPE_SprawozdanieFinansowe2020/reports/ixbrlviewer.html",
+        "xbrl-json": "esef_GKTPE_SprawozdanieFinansowe2020.json",
+        "errors": [],
+        "added": "2021-06-09"
+      }
+    },
+    "entity": {
+      "name": "TAURON Polska Energia Sp\u00f3\u0142ka Akcyjna"
+    }
+  }
+}

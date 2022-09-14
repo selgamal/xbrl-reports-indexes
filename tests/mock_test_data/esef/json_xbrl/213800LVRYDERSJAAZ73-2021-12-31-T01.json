@@ -1,0 +1,3307 @@
+{
+  "documentInfo": {
+    "documentType": "https://xbrl.org/2021/xbrl-json",
+    "features": {
+      "xbrl:canonicalValues": true
+    },
+    "namespaces": {
+      "ext": "https://www.macfarlanegroup.com/esef/2021-12-31",
+      "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2020-03-16/ifrs-full",
+      "iso4217": "http://www.xbrl.org/2003/iso4217",
+      "scheme": "http://standards.iso.org/iso/17442",
+      "xbrl": "https://xbrl.org/2021",
+      "xbrli": "http://www.xbrl.org/2003/instance"
+    },
+    "taxonomy": [
+      "https://www.macfarlanegroup.com/esef/2021-12-31/213800LVRYDERSJAAZ73-2021-12-31.xsd"
+    ]
+  },
+  "facts": {
+    "shtag_5474240": {
+      "value": "Macfarlane Group designs, manufactures and distributes protective packaging products to business users across a range of sectors including e-commerce retail, logistics, medical, automotive, aerospace, electronics, high street retail, household essentials, food and hospitality. ",
+      "dimensions": {
+        "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474248": {
+      "value": "264465000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Revenue",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474249": {
+      "value": "210227000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Revenue",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474250": {
+      "value": "174998000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CostOfSales",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474251": {
+      "value": "140400000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CostOfSales",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474252": {
+      "value": "89467000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:GrossProfit",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474253": {
+      "value": "69827000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:GrossProfit",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474254": {
+      "value": "8651000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DistributionCosts",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474255": {
+      "value": "7162000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DistributionCosts",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474256": {
+      "value": "60761000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdministrativeExpense",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474257": {
+      "value": "49006000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdministrativeExpense",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474258": {
+      "value": "20055000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474259": {
+      "value": "13659000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474268": {
+      "value": "1390000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:FinanceCosts",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474269": {
+      "value": "1226000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:FinanceCosts",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474260": {
+      "value": "18665000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossBeforeTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474261": {
+      "value": "12433000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossBeforeTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474266": {
+      "value": "4917000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474267": {
+      "value": "2696000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474262": {
+      "value": "13748000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474263": {
+      "value": "9737000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474264": {
+      "value": "-1150000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474265": {
+      "value": "434000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5470716": {
+      "value": "12598000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5470717": {
+      "value": "10171000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474270": {
+      "value": "0.0871",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:BasicEarningsLossPerShareFromContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474271": {
+      "value": "0.0617",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:BasicEarningsLossPerShareFromContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474272": {
+      "value": "0.0862",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:DilutedEarningsLossPerShareFromContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474273": {
+      "value": "0.0614",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:DilutedEarningsLossPerShareFromContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474274": {
+      "value": "0.0798",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:BasicEarningsLossPerShare",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474275": {
+      "value": "0.0645",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:BasicEarningsLossPerShare",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474276": {
+      "value": "0.0790",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:DilutedEarningsLossPerShare",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474277": {
+      "value": "0.0642",
+      "decimals": 4,
+      "dimensions": {
+        "concept": "ifrs-full:DilutedEarningsLossPerShare",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP/xbrli:shares"
+      }
+    },
+    "shtag_5474278": {
+      "value": "-120000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474279": {
+      "value": "60000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474280": {
+      "value": "8212000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474281": {
+      "value": "2112000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474282": {
+      "value": "2054000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474283": {
+      "value": "401000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474492": {
+      "value": "88000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474493": {
+      "value": "129000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474286": {
+      "value": "6126000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474287": {
+      "value": "1900000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474288": {
+      "value": "12598000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474289": {
+      "value": "10171000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474290": {
+      "value": "18724000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474291": {
+      "value": "12071000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474292": {
+      "value": "39453000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474293": {
+      "value": "13148000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474294": {
+      "value": "70000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474295": {
+      "value": "231000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474296": {
+      "value": "15835000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474297": {
+      "value": "68737000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474298": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474299": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474300": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474301": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474302": {
+      "value": "10171000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474303": {
+      "value": "10171000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474304": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474305": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474306": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474307": {
+      "value": "60000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474308": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474309": {
+      "value": "60000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474310": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474311": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474312": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474313": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474314": {
+      "value": "2112000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474315": {
+      "value": "2112000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474316": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474317": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474318": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474319": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474320": {
+      "value": "401000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474321": {
+      "value": "401000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474778": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474779": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474780": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474781": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474782": {
+      "value": "129000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474783": {
+      "value": "129000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474328": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474329": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474330": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474331": {
+      "value": "60000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474332": {
+      "value": "12011000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474333": {
+      "value": "12071000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474334": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474335": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474336": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474337": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474338": {
+      "value": "1105000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474339": {
+      "value": "1105000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474340": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474341": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474342": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474343": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474344": {
+      "value": "75000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474345": {
+      "value": "75000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474346": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474347": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474348": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474349": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474350": {
+      "value": "-1030000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474351": {
+      "value": "-1030000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474352": {
+      "value": "39453000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474353": {
+      "value": "13148000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474354": {
+      "value": "70000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474355": {
+      "value": "291000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474356": {
+      "value": "26816000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474357": {
+      "value": "79778000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474358": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474359": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474360": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474361": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474362": {
+      "value": "12598000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474363": {
+      "value": "12598000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProfitLoss",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474370": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474371": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474372": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474373": {
+      "value": "-120000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474374": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474375": {
+      "value": "-120000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474376": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474377": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474378": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474379": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474380": {
+      "value": "8212000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474381": {
+      "value": "8212000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474382": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474383": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474384": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474385": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474386": {
+      "value": "2054000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474387": {
+      "value": "2054000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474494": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474495": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474496": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474497": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474498": {
+      "value": "88000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474499": {
+      "value": "88000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:CorporationTaxRateChangeOnDeferredTax",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474394": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474395": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474396": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474397": {
+      "value": "-120000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474398": {
+      "value": "18844000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474399": {
+      "value": "18724000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ComprehensiveIncome",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474400": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474401": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474402": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474403": {
+      "value": "-0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474404": {
+      "value": "4293000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474405": {
+      "value": "4293000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaid",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474406": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474407": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474408": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474409": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474410": {
+      "value": "685000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474411": {
+      "value": "685000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474412": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474413": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474414": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474415": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474416": {
+      "value": "-3608000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474417": {
+      "value": "-3608000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474418": {
+      "value": "39453000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474419": {
+      "value": "13148000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474420": {
+      "value": "70000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RevaluationSurplusMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474421": {
+      "value": "171000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474422": {
+      "value": "42052000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474423": {
+      "value": "94894000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474424": {
+      "value": "74902000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IntangibleAssetsAndGoodwill",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474425": {
+      "value": "60598000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IntangibleAssetsAndGoodwill",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474426": {
+      "value": "6101000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:PropertyPlantAndEquipment",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474427": {
+      "value": "8640000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:PropertyPlantAndEquipment",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474428": {
+      "value": "34718000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RightofuseAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474429": {
+      "value": "28584000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RightofuseAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474430": {
+      "value": "35000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentReceivables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474431": {
+      "value": "35000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentReceivables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474432": {
+      "value": "19000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DeferredTaxAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474433": {
+      "value": "396000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DeferredTaxAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474488": {
+      "value": "8267000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:SurplusDeficitInPlan",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474489": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:SurplusDeficitInPlan",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474436": {
+      "value": "124042000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474437": {
+      "value": "98253000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474438": {
+      "value": "21269000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Inventories",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474439": {
+      "value": "15858000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Inventories",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474440": {
+      "value": "58541000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:TradeAndOtherCurrentReceivables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474441": {
+      "value": "51371000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:TradeAndOtherCurrentReceivables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474442": {
+      "value": "12315000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474443": {
+      "value": "7228000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474444": {
+      "value": "92125000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474445": {
+      "value": "74457000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474446": {
+      "value": "216167000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Assets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474447": {
+      "value": "172710000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Assets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474448": {
+      "value": "60975000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474449": {
+      "value": "47755000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474450": {
+      "value": "1730000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentProvisions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474451": {
+      "value": "1834000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentProvisions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474452": {
+      "value": "771000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474453": {
+      "value": "1731000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474454": {
+      "value": "6364000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentLeaseLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474455": {
+      "value": "5784000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentLeaseLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474456": {
+      "value": "9840000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ShorttermBorrowings",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474457": {
+      "value": "7766000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ShorttermBorrowings",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474458": {
+      "value": "79680000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474459": {
+      "value": "64870000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474460": {
+      "value": "12445000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentAssetsLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474461": {
+      "value": "9587000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CurrentAssetsLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474490": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentProvisionsForEmployeeBenefits",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474491": {
+      "value": "1471000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentProvisionsForEmployeeBenefits",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474462": {
+      "value": "7472000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DeferredTaxLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474463": {
+      "value": "3072000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DeferredTaxLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474464": {
+      "value": "3695000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentPayables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474465": {
+      "value": "19000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentPayables",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474466": {
+      "value": "1848000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherLongtermProvisions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474467": {
+      "value": "592000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:OtherLongtermProvisions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474468": {
+      "value": "28578000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474469": {
+      "value": "22908000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474470": {
+      "value": "41593000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474471": {
+      "value": "28062000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NoncurrentLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474472": {
+      "value": "121273000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Liabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474473": {
+      "value": "92932000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Liabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474474": {
+      "value": "94894000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NetAssetsLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474475": {
+      "value": "79778000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:NetAssetsLiabilities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474476": {
+      "value": "39453000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IssuedCapital",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474477": {
+      "value": "39453000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IssuedCapital",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474478": {
+      "value": "13148000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:SharePremium",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474479": {
+      "value": "13148000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:SharePremium",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474480": {
+      "value": "70000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RevaluationSurplus",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474481": {
+      "value": "70000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RevaluationSurplus",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474482": {
+      "value": "171000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ReserveOfExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474483": {
+      "value": "291000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ReserveOfExchangeDifferencesOnTranslation",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474484": {
+      "value": "42052000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RetainedEarnings",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474485": {
+      "value": "26816000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RetainedEarnings",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474486": {
+      "value": "94894000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474487": {
+      "value": "79778000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:Equity",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474702": {
+      "value": "18665000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:ProfitLossBeforeTaxContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474703": {
+      "value": "12433000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:ProfitLossBeforeTaxContinuingOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474706": {
+      "value": "-938000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:ProfitLossBeforeTaxDiscontinuedOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474707": {
+      "value": "569000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:ProfitLossBeforeTaxDiscontinuedOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474708": {
+      "value": "17727000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:ProfitLossBeforeTaxContinuingAndDiscontinuedOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474709": {
+      "value": "13002000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ext:ProfitLossBeforeTaxContinuingAndDiscontinuedOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474710": {
+      "value": "3311000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AmortisationExpense",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474711": {
+      "value": "2520000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AmortisationExpense",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474768": {
+      "value": "987000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForImpairmentLossRecognisedInProfitOrLossGoodwill",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474769": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForImpairmentLossRecognisedInProfitOrLossGoodwill",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474712": {
+      "value": "1989000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DepreciationExpense",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474713": {
+      "value": "1719000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DepreciationExpense",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474714": {
+      "value": "7282000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DepreciationRightofuseAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474715": {
+      "value": "6740000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DepreciationRightofuseAssets",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474716": {
+      "value": "43000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:LossesOnDisposalsOfPropertyPlantAndEquipment",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474717": {
+      "value": "30000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:LossesOnDisposalsOfPropertyPlantAndEquipment",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474770": {
+      "value": "232000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForGainLossOnDisposalOfInvestmentsInSubsidiariesJointVenturesAndAssociates",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474771": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForGainLossOnDisposalOfInvestmentsInSubsidiariesJointVenturesAndAssociates",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474718": {
+      "value": "685000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474719": {
+      "value": "75000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474720": {
+      "value": "1390000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForFinanceCosts",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474721": {
+      "value": "1342000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForFinanceCosts",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474722": {
+      "value": "33646000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474723": {
+      "value": "25428000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474724": {
+      "value": "-4848000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474725": {
+      "value": "161000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474726": {
+      "value": "-7892000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474727": {
+      "value": "955000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474728": {
+      "value": "8905000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAccountPayable",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474729": {
+      "value": "965000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAccountPayable",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474730": {
+      "value": "1884000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForProvisions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474731": {
+      "value": "1766000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:AdjustmentsForProvisions",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474732": {
+      "value": "-1533000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ContributionsToPlanNetDefinedBenefitLiabilityAsset",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474733": {
+      "value": "-2981000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ContributionsToPlanNetDefinedBenefitLiabilityAsset",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474734": {
+      "value": "30162000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474735": {
+      "value": "26294000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInOperations",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474736": {
+      "value": "4975000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474737": {
+      "value": "1728000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474738": {
+      "value": "1383000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474739": {
+      "value": "1243000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474740": {
+      "value": "23804000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474741": {
+      "value": "23323000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474742": {
+      "value": "12238000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474743": {
+      "value": "2661000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474752": {
+      "value": "5212000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474753": {
+      "value": "0",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474744": {
+      "value": "199000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474745": {
+      "value": "102000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474746": {
+      "value": "2132000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474747": {
+      "value": "804000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474748": {
+      "value": "-8959000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474749": {
+      "value": "-3363000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474754": {
+      "value": "4293000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474755": {
+      "value": "1105000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474756": {
+      "value": "-3889000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474757": {
+      "value": "10225000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474758": {
+      "value": "7539000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474759": {
+      "value": "6719000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474750": {
+      "value": "-7943000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474751": {
+      "value": "-18049000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474766": {
+      "value": "6902000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474767": {
+      "value": "1911000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474762": {
+      "value": "5221000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474763": {
+      "value": "3310000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2020-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474764": {
+      "value": "12123000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474765": {
+      "value": "5221000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474772": {
+      "value": "12315000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474773": {
+      "value": "7228000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474774": {
+      "value": "-192000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:BankOverdraftsClassifiedAsCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474775": {
+      "value": "-2007000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:BankOverdraftsClassifiedAsCashEquivalents",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474776": {
+      "value": "12123000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2022-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474777": {
+      "value": "5221000",
+      "decimals": -3,
+      "dimensions": {
+        "concept": "ifrs-full:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00",
+        "unit": "iso4217:GBP"
+      }
+    },
+    "shtag_5474239": {
+      "value": "Macfarlane Group PLC ",
+      "dimensions": {
+        "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474241": {
+      "value": "Macfarlane Group PLC ",
+      "dimensions": {
+        "concept": "ifrs-full:NameOfParentEntity",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474242": {
+      "value": "Macfarlane Group PLC ",
+      "dimensions": {
+        "concept": "ifrs-full:NameOfUltimateParentOfGroup",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474243": {
+      "value": "public company ",
+      "dimensions": {
+        "concept": "ifrs-full:LegalFormOfEntity",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474244": {
+      "value": "United Kingdom ",
+      "dimensions": {
+        "concept": "ifrs-full:DomicileOfEntity",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474245": {
+      "value": "United Kingdom ",
+      "dimensions": {
+        "concept": "ifrs-full:CountryOfIncorporation",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474246": {
+      "value": "United Kingdom ",
+      "dimensions": {
+        "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    },
+    "shtag_5474247": {
+      "value": "3 Park Gardens, Glasgow, G3 7YE.",
+      "dimensions": {
+        "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+        "language": "en",
+        "entity": "scheme:213800LVRYDERSJAAZ73",
+        "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+      }
+    }
+  }
+}

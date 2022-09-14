@@ -1,0 +1,5 @@
+- monthly_01 is missing feeds from 2022-7 to 2022-9 inclusive
+- index_01 is missing:
+    - filing 25940037UC4MNP02D242/2021-12-31/ESEF/PL/0
+    - entity : 213800LVRYDERSJAAZ73
+                - 213800LVRYDERSJAAZ73/2021-12-31/ESEF/GB/0
