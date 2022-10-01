@@ -1,5 +1,6 @@
 alabaster==0.7.12
 aniso8601==9.0.1
+arelle-release
 asn1crypto==1.5.1
 astroid==2.12.9
 attrs==22.1.0

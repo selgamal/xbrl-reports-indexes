@@ -27,17 +27,17 @@ classifiers = [
     "Topic :: Office/Business :: Financial"
 ]
 dependencies = [
-    "sqlalchemy", "pycountry", "pytz", "lxml", "python-dateutil", "lxml"
+    "sqlalchemy", "arelle-release", "pycountry", "pytz"
 ]
 
 [project.optional-dependencies]
 db = ["psycopg2", "pymysql"]
 
 [project.urls]
-"Homepage" = "https://github.com/selgamal/xbrlreportsindexes"
-"Download" = "https://github.com/selgamal/xbrlreportsindexes"
-"Documentation" = "https://github.com/selgamal/xbrlreportsindexes"
-"Source" = "https://github.com/selgamal/xbrlreportsindexes"
+"Homepage" = "https://github.com/selgamal/xbrl-reports-indexes"
+"Download" = "https://github.com/selgamal/xbrl-reports-indexes"
+"Documentation" = "https://github.com/selgamal/xbrl-reports-indexes"
+"Source" = "https://github.com/selgamal/xbrl-reports-indexes"
 
 [tool.setuptools]
 platforms = ["linux", "win32"]

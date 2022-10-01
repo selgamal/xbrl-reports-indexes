@@ -11,7 +11,10 @@ from typing import Optional
 try:
     from arelle.Cntlr import Cntlr, LogToBufferHandler, LogFormatter
 except ModuleNotFoundError as exc:
-    raise Exception("Please add path to arelle to python path") from exc
+    raise Exception(
+        "Please make sure arelle is installed "
+        "use `pip install arelle-release`"
+    ) from exc
 
 RSS_DB_LOG_HANDLER_NAME = "rss-db-log-handler"
 
