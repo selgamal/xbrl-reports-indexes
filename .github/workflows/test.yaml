@@ -18,12 +18,6 @@ jobs:
       with:
         path: xbrlreportsindexes
 
-    - name: Checkout Arelle master
-      uses: actions/checkout@v3
-      with:
-        repository: Arelle/Arelle
-        path: Arelle
-
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -35,17 +29,6 @@ jobs:
         pip install tox==3.26.0 tox-gh-actions
     - name: Test with tox
       run:  |
-            if [ "$RUNNER_OS" == "Linux" ]; then
-                  cd xbrlreportsindexes
-                  PYTHONPATH=$GITHUB_WORKSPACE/Arelle tox
-            elif [ "$RUNNER_OS" == "Windows" ]; then
-                  echo $GITHUB_WORKSPACE
-                  export PYTHONPATH=$GITHUB_WORKSPACE/Arelle
-                  echo $PYTHONPATH
-                  cd xbrlreportsindexes
-                  tox
-            else
-                  echo "$RUNNER_OS not supported"
-                  exit 1
-            fi
+              cd xbrlreportsindexes
+              tox
       shell: bash
