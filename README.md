@@ -8,7 +8,6 @@ This package is useful for easily collecting and organizing up to date informati
 A downloadable sqlite example database is available on google drive [here](https://drive.google.com/uc?id=1U5ch8G7DkdhbS1wBtXob8qxwZ0N6U1hF&export=download), contains filings data until 2022-09-14.
 
 # Installation
-This package depends on [`arelle`](https://github.com/Arelle/Arelle), make sure `arelle` is available and all its dependencies are installed.
 ```bash
 pip install xbrl-reports-index
 ```
@@ -23,7 +22,6 @@ pip install dist/*.whl
 ```
 
 # Usage
-This package depends on [arelle](https://github.com/Arelle/Arelle), and `arelle` must be available and all its dependencies installed in the environment xri included in $PYTHONPATH variable.
 
 ## Command line
 For options and help:
@@ -31,7 +29,6 @@ For options and help:
 $ xri-db-tasks -h
 ```
 ```bash
-$ export PYTHONPATH=$PYTHONPATH:<path-to-arelle>
 # initialize sqlite database update data (requires internet connection)
 $ xri-db-task <database-name> --initialize-database --update-sec --update-sec
 ```
@@ -135,7 +132,7 @@ for f in filings_august_qry:
 ## Data update
 A cron job can be setup to collect information about new filing from SEC site every 10 minutes during working hours as follows:
 ```bash
-*/10 6-22 * * 1-5 export PYTHONPATH=$PYTHONPATH:<path to arelle> && xri-db-task <db connection parameters> --update-sec # note timezone differences
+*/10 6-22 * * 1-5 xri-db-task <db connection parameters> --update-sec # note timezone differences
 ```
 # License
 Apache-2.0
