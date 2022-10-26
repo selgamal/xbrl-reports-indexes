@@ -1672,10 +1672,12 @@ class XbrlIndexDB:
                 model_xbrl.modelDocument, ModelDocument.ModelDocument
             )
             result_len = len(getattr(model_xbrl.modelDocument, "rssItems", []))
-            result = model_xbrl.modelDocument.xmlDocument
+            result = model_xbrl.modelDocument
+            result.filepath = os.path.abspath(filename)
+            xml_document = result.xmlDocument
             if filename != "memory":
                 with open(filename, "w", encoding="utf-8") as _fh:
-                    XmlUtil.writexml(_fh, result, encoding="utf-8")
+                    XmlUtil.writexml(_fh, xml_document, encoding="utf-8")
         else:
             raise XIDBException(
                 constants.ERR_BAD_TYPE,
