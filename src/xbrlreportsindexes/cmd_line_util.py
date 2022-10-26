@@ -394,7 +394,8 @@ def do_search_tasks(
                     ),
                     title="Query result",
                 )
-    return file
+    assert isinstance(file, tuple)
+    return file[0]
 
 
 def list_industry_tree(

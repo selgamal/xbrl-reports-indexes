@@ -1645,9 +1645,14 @@ class XbrlIndexDB:
         type_: str,
         title: str | None = None,
         description: str | None = None,
-    ) -> str:
+        return_object: bool = False,
+    ) -> tuple[str, ModelDocument.ModelDocument | list[dict[str, Any]] | None]:
         """Saves a list of filings in the specified format in
-        `type` "json" or "rss", saved to `filename`"""
+        `type` "json" or "rss", saved to `filename`, if file name == 'memory'
+        file will not be saved"""
+        result: ModelDocument.ModelDocument | list[
+            dict[str, Any]
+        ] | None = None
         result_len = 0
         if type_ == "json":
             result = []
@@ -1656,8 +1661,9 @@ class XbrlIndexDB:
                 filing_dict["files"] = [x.to_dict() for x in filing.files]
                 result.append(filing_dict)
             result_len = len(result)
-            with open(filename, "w", encoding="utf-8") as _fh:
-                json.dump(result, _fh, default=str)
+            if filename != "memory":
+                with open(filename, "w", encoding="utf-8") as _fh:
+                    json.dump(result, _fh, default=str)
         elif type_ == "rss":
             model_xbrl = self._make_rss_feed(
                 filings_list, filename, title, description
@@ -1666,9 +1672,10 @@ class XbrlIndexDB:
                 model_xbrl.modelDocument, ModelDocument.ModelDocument
             )
             result_len = len(getattr(model_xbrl.modelDocument, "rssItems", []))
-            xml_document = model_xbrl.modelDocument.xmlDocument
-            with open(filename, "w", encoding="utf-8") as _fh:
-                XmlUtil.writexml(_fh, xml_document, encoding="utf-8")
+            result = model_xbrl.modelDocument.xmlDocument
+            if filename != "memory":
+                with open(filename, "w", encoding="utf-8") as _fh:
+                    XmlUtil.writexml(_fh, result, encoding="utf-8")
         else:
             raise XIDBException(
                 constants.ERR_BAD_TYPE,
@@ -1678,7 +1685,7 @@ class XbrlIndexDB:
             f"Created {filename} for {result_len:,} filings.",
             **log_template("info", self.database),
         )
-        return filename
+        return (filename, result if return_object else None)
 
     def get_all_industry_tree(
         self, industry_classification: str
