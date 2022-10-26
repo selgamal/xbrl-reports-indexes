@@ -3666,9 +3666,17 @@ STATE_CODES: OrderedDict[
     ]
 )
 
-state_codes_by_alpha_2: dict[str, str] = {
-    v[5]: k for k, v in STATE_CODES.items() if v[5]
-}
+
+def _make_alpha_2() -> dict[str, str]:
+    result = {v[5]: k for k, v in STATE_CODES.items() if v[5]}
+    # fix US and CA codes:
+    result["US"] = "X1"
+    result["CA"] = "Z4"
+    return result
+
+
+state_codes_by_alpha_2: dict[str, str] = _make_alpha_2()
+
 
 CACHED_CORE_TABLES: list[str] = [
     getattr(ESEF.EsefEntity, "__tablename__", ""),
