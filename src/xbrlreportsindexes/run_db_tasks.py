@@ -8,6 +8,7 @@ import sys
 from xbrlreportsindexes.cmd_line_util import args_dict
 from xbrlreportsindexes.cmd_line_util import args_search_group
 from xbrlreportsindexes.cmd_line_util import run_args
+from xbrlreportsindexes.cmd_line_util import run_refresher
 
 args_parser = argparse.ArgumentParser(
     description=(
@@ -31,11 +32,29 @@ for k, v in args_search_group.items():
     search_group.add_argument(k, **v)
 
 
+refresher_args = argparse.ArgumentParser(
+    description=(
+        "Refreshes S&P, NASDAQ, DJIA companies tags. "
+    )
+)
+
+refresher_args.add_argument("connection", **args_dict["connection"])
+refresher_args.add_argument(
+    "--initialize-database", **args_dict["--initialize-database"]
+)
+
 def main() -> int:
     """Entry point for CLI"""
     gettext.install("arelle")
     options = args_parser.parse_args()
     run_args(options)
+    return 0
+
+def refresher() -> int:
+    """Entry point for CLI"""
+    gettext.install("arelle")
+    options = refresher_args.parse_args()
+    run_refresher(options)
     return 0
 
 

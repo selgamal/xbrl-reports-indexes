@@ -48,6 +48,7 @@ version = {attr = "xbrlreportsindexes.__version__"}
 
 [project.scripts]
 xri-db-tasks = "xbrlreportsindexes.run_db_tasks:main"
+xri-refresh-updatables = "xbrlreportsindexes.run_db_tasks:refresher"
 
 [tool.setuptools.packages.find]
 where = ["src"]

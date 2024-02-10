@@ -1030,6 +1030,64 @@ def get_sp_500(cntlr: Cntlr) -> list[tuple[Any, Any, Any]]:
     return res
 
 
+def get_djia_companies(cntlr: Cntlr) -> list[tuple[str, str, str]]:
+    """Get Dow Jones Industrial Average companies from wikipedia
+    returns list of tuples (ticker symbol, exchange, date added to index)
+    """
+    url = "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+    djia_resp = cntlr.webCache.opener.open(url)
+    tree = html.parse(djia_resp)
+    root = tree.getroot()
+    trs = root.xpath('//table[@id="constituents"]/tbody/tr')
+    djia_tkrs = []
+    for _tr in trs:
+        ticker_row = tuple(
+            (
+                d.text.replace("\n", "")
+                if d.text
+                else (d.xpath(".//a/text()")[0] if d.xpath(".//a/text()") else None)
+            )
+            for d in _tr.findall("td")
+        )
+        djia_tkrs.append(ticker_row)
+
+    tks_site: list[tuple[str, str, str]] = [
+        (x[1].lower().replace(".", "-"), x[0].lower().replace(".", "-"), x[-3])
+        for x in djia_tkrs
+        if x
+    ]
+    res = list(set(tks_site))
+    res.sort(key=lambda x: x[0])
+    return res
+
+
+def get_nasdaq_100(cntlr: Cntlr) -> list[str]:
+    """Get Dow Jones Industrial Average companies from wikipedia
+    returns list of tuples (ticker symbol, exchange, date added to index)
+    """
+    url = "https://en.wikipedia.org/wiki/Nasdaq-100"
+    nasdaq_resp = cntlr.webCache.opener.open(url)
+    tree = html.parse(nasdaq_resp)
+    root = tree.getroot()
+    trs = root.xpath('//table[@id="constituents"]/tbody/tr')
+    nasdaq_tkrs = []
+    for _tr in trs:
+        ticker_row = tuple(
+            (
+                d.text.replace("\n", "")
+                if d.text
+                else (d.xpath(".//a/text()")[0] if d.xpath(".//a/text()") else None)
+            )
+            for d in _tr.findall("td")
+        )
+        nasdaq_tkrs.append(ticker_row)
+
+    tks_site: set[set] = {x[1].lower().replace(".", "-") for x in nasdaq_tkrs if x}
+    res = list(set(tks_site))
+    res.sort(key=lambda x: x[0])
+    return res
+
+
 def get_sp_companies_ciks(cntlr: Cntlr) -> list[dict[str, Any]]:
     """returns (
         (todays_date, cikNumber, in_sp100, ticker_symbol, date_first_added),
@@ -1074,6 +1132,85 @@ def get_sp_companies_ciks(cntlr: Cntlr) -> list[dict[str, Any]]:
         f" in {time_taken} sec(s)"
     )
     cntlr.addToLog(msg, **log_template("info", cntlr, logging.ERROR))
+    return result
+
+
+def get_index_companies_ciks(
+    cntlr: Cntlr, cache: bool = True
+) -> list[dict[str, str | datetime.date | None]]:
+    """returns (
+        (as_of_date, cikNumber, in_sp100, is_djia, is_nasdaq, ticker_symbol, date_first_added),
+        ) based on:
+    https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+    https://en.wikipedia.org/wiki/S%26P_100
+    https://en.wikipedia.org/wiki/Nasdaq-100
+    https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average
+    """
+    start_at = time.perf_counter()
+    sp500 = get_sp_500(cntlr)
+    sp100 = get_sp_100(cntlr)
+    djia = get_djia_companies(cntlr)
+    djia_set = {t for t, _, _ in djia}
+    nasdaq = set(get_nasdaq_100(cntlr))
+    sec_tkr = get_sec_cik_ticker_mapping(cntlr)
+    sec_tkr_mapping_dict = {x["ticker_symbol"].lower(): x["cik_number"] for x in sec_tkr}
+
+    result = []
+    visited = set()
+    for tkr, cik, add_date in sp500:
+        row = {
+            SEC.SpCompaniesCiks.ticker_symbol.key: tkr,
+            SEC.SpCompaniesCiks.cik_number.key: sec_tkr_mapping_dict.get(tkr, None),
+            SEC.SpCompaniesCiks.as_of_date.key: datetime.datetime.today().date(),
+            SEC.SpCompaniesCiks.is_sp100.key: tkr in sp100,
+            SEC.SpCompaniesCiks.is_djia.key: tkr in djia_set,
+            SEC.SpCompaniesCiks.is_nasdaq.key: tkr in nasdaq,
+            SEC.SpCompaniesCiks.date_first_added.key: parser.parse(add_date),
+        }
+        result.append(row)
+        visited.add(tkr)
+
+    for tkr, _, add_date in djia:
+        if not tkr in visited:
+            row = {
+                SEC.SpCompaniesCiks.ticker_symbol.key: tkr,
+                SEC.SpCompaniesCiks.cik_number.key: sec_tkr_mapping_dict.get(tkr, None),
+                SEC.SpCompaniesCiks.as_of_date.key: datetime.datetime.today().date(),
+                SEC.SpCompaniesCiks.is_sp100.key: False,
+                SEC.SpCompaniesCiks.is_djia.key: True,
+                SEC.SpCompaniesCiks.is_nasdaq.key: tkr in nasdaq,
+                SEC.SpCompaniesCiks.date_first_added.key: parser.parse(add_date),
+            }
+            result.append(row)
+            visited.add(tkr)
+
+    for tkr in nasdaq:
+        if not tkr in visited:
+            row = {
+                SEC.SpCompaniesCiks.cik_number.key: sec_tkr_mapping_dict.get(tkr, None),
+                SEC.SpCompaniesCiks.as_of_date.key: datetime.datetime.today().date(),
+                SEC.SpCompaniesCiks.is_sp100.key: False,
+                SEC.SpCompaniesCiks.is_djia.key: False,
+                SEC.SpCompaniesCiks.is_nasdaq.key: True,
+                SEC.SpCompaniesCiks.ticker_symbol.key: tkr,
+                SEC.SpCompaniesCiks.date_first_added.key: None,
+            }
+            result.append(row)
+            visited.add(tkr)
+
+    msg = "Retrieved S&P, DJIA and NASDAQ 100 Companies"
+    if cache:
+        store_filename = (
+            pathlib.Path(getattr(cntlr, "db_cache_dir"))
+            / f"{SEC.SpCompaniesCiks.__tablename__}-data.pkl"
+        )
+        with open(store_filename, "wb") as pkl:
+            pickle.dump(result, pkl)
+        msg += f" and updated cache {str(store_filename)}"
+
+    time_taken = get_time_elapsed(start_at)
+    msg += f" in {time_taken} sec(s)."
+    cntlr.addToLog(msg, **log_template("info", cntlr, logging.INFO))
     return result
 
 

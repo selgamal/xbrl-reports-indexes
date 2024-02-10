@@ -22,15 +22,13 @@ from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import Session
 from sqlalchemy.sql import table
 from sqlalchemy.sql import TableClause
-from sqlalchemy.types import BOOLEAN
 from xbrlreportsindexes.model import create_view
 from sqlalchemy.types import (
     BigInteger,
     DateTime,
     Date,
     Integer,
-    Numeric,
-    SmallInteger,
+    Boolean,
     String,
 )
 from xbrlreportsindexes.model.base_model import Base
@@ -411,13 +409,13 @@ class SpCompaniesCiks(Base, CreatedUpdatedAtColMixin):
     """Listing of S&P 500 companies and cik numbers"""
 
     __table_args__ = {"comment": "sec_rss"}
-    cik_number = Column(
-        String(), nullable=False, primary_key=True
-    )
+    ticker_symbol = Column(String(), primary_key=True)
+    cik_number = Column(String(), primary_key=True)
     as_of_date = Column(Date(), nullable=True)
-    is_sp100 = Column(BOOLEAN, nullable=True)
-    ticker_symbol = Column(String(), nullable=True)
-    date_first_added = Column(String(), nullable=True)
+    is_sp100 = Column(Boolean(), nullable=True)
+    is_djia = Column(Boolean(), nullable=True)
+    is_nasdaq = Column(Boolean(), nullable=True)
+    date_first_added = Column(Date(), nullable=True)
 
 
 class SecIndustry(Base):

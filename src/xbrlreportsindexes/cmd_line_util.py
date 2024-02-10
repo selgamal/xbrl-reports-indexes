@@ -440,3 +440,10 @@ def run_args(options: argparse.Namespace) -> None:
         do_search_tasks(options, db_instance)
         list_industry_tree(options, db_instance)
         list_countries_info(options, db_instance)
+
+def run_refresher(options: argparse.Namespace) -> None:
+    """Main entry point"""
+    db_instance = make_db_connection(options)
+    if db_instance.db_exists:
+        db_instance.refresh_sec_cik_ticker_mapping()
+        db_instance.refresh_sp_companies_list()

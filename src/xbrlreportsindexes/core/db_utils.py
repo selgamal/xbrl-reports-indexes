@@ -39,7 +39,7 @@ from xbrlreportsindexes.core.data_utils import get_monthly_rss_feeds_links
 from xbrlreportsindexes.core.data_utils import get_new_and_modified_feeds
 from xbrlreportsindexes.core.data_utils import get_new_or_modified_filings
 from xbrlreportsindexes.core.data_utils import get_sec_cik_ticker_mapping
-from xbrlreportsindexes.core.data_utils import get_sp_companies_ciks
+from xbrlreportsindexes.core.data_utils import get_index_companies_ciks
 from xbrlreportsindexes.core.data_utils import get_time_elapsed
 from xbrlreportsindexes.core.data_utils import ts_now
 from xbrlreportsindexes.model import BASE
@@ -60,7 +60,7 @@ updatable_tables_functions = {
     getattr(
         SEC.SecCikTickerMapping, "__tablename__"
     ): get_sec_cik_ticker_mapping,
-    getattr(SEC.SpCompaniesCiks, "__tablename__"): get_sp_companies_ciks,
+    getattr(SEC.SpCompaniesCiks, "__tablename__"): get_index_companies_ciks,
 }
 
 
@@ -440,7 +440,7 @@ def refresh_updatable_tables(
     data = None
     try:
         data = updatable_tables_functions[table_name](cntlr)
-    except Exception:
+    except Exception as ex:
         cntlr.addToLog(
             (f"Couldn't fetch {table_name} table data."),
             **log_template("error", engine.url.database, logging.ERROR),
