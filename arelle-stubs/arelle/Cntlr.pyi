@@ -5,7 +5,7 @@ from arelle.Locale import getLanguageCodes as getLanguageCodes, setDisableRTL as
 from arelle.ModelXbrl import ModelXbrl as ModelXbrl
 from arelle.WebCache import WebCache as WebCache
 from arelle.typing import TypeGetText as TypeGetText
-from typing import Any, TextIO
+from typing import Any, TextIO, Union
 
 osPrcs: Incomplete
 LOG_TEXT_MAX_LENGTH: int

@@ -92,14 +92,14 @@ random_function: dict[str, Union[Callable[[], str], _FunctionGenerator]] = {
     "oracle": lambda: "dbms_random.value",
 }
 
-Bigint_type: Variant[type] = Variant(BigInteger(), BIGINT_TYPE)
-Integer_type: Variant[type] = Variant(Integer(), BIGINT_TYPE)
-Date_type: Variant[type] = Variant(Date(), DATE_TYPE)
-Text_type: Variant[type] = Variant(Text(), TEXT_TYPE)
-Timestamp_type: Variant[type] = Variant(TIMESTAMP(), TIMESTAMP_TYPE)
-Timestamptz_type: Variant[type] = Variant(
-    TIMESTAMP(timezone=True), TIMESTAMPTZ_TYPE
-)
-Char_varying_type: Variant[type] = Variant(VARCHAR(), CHARVARYING_TYPE)
-Numeric_type: Variant[type] = Variant(NUMERIC(), NUMERIC_TYPE)
-Float_type: Variant[type] = Variant(FLOAT(), FLOAT_TYPE)
+# Bigint_type: Variant[type] = Variant(BigInteger(), BIGINT_TYPE)
+# Integer_type: Variant[type] = Variant(Integer(), BIGINT_TYPE)
+# Date_type: Variant[type] = Variant(Date(), DATE_TYPE)
+# Text_type: Variant[type] = Variant(Text(), TEXT_TYPE)
+# Timestamp_type: Variant[type] = Variant(TIMESTAMP(), TIMESTAMP_TYPE)
+# Timestamptz_type: Variant[type] = Variant(
+#     TIMESTAMP(timezone=True), TIMESTAMPTZ_TYPE
+# )
+# Char_varying_type: Variant[type] = Variant(VARCHAR(), CHARVARYING_TYPE)
+# Numeric_type: Variant[type] = Variant(NUMERIC(), NUMERIC_TYPE)
+# Float_type: Variant[type] = Variant(FLOAT(), FLOAT_TYPE)

@@ -11,9 +11,15 @@ from lxml import etree
 from sqlalchemy import Column
 from sqlalchemy import false
 from sqlalchemy import true
+from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import relationship
 from sqlalchemy.types import BOOLEAN
-from xbrlreportsindexes.model import types_mapping
+from sqlalchemy.types import (
+    BigInteger,
+    Date,
+    Integer,
+    String,
+)
 from xbrlreportsindexes.model.base_model import Base
 from xbrlreportsindexes.model.base_model import CreatedUpdatedAtColMixin
 from xbrlreportsindexes.model.base_model import Location
@@ -35,43 +41,43 @@ class EsefFiling(Base, CreatedUpdatedAtColMixin):
     __table_args__ = {"comment": "esef_index"}
 
     filing_id = Column(
-        types_mapping.Bigint_type, primary_key=True, autoincrement=True
+        BigInteger(), primary_key=True, autoincrement=True
     )
-    filing_key = Column(types_mapping.Text_type, nullable=False)
-    filing_root = Column(types_mapping.Text_type, nullable=False)
-    filing_number = Column(types_mapping.Integer_type, nullable=False)
-    entity_lei = Column(types_mapping.Text_type)
-    country = Column(types_mapping.Text_type, nullable=False)
-    filing_system = Column(types_mapping.Text_type, nullable=False)
+    filing_key = Column(String(), nullable=False)
+    filing_root = Column(String(), nullable=False)
+    filing_number = Column(Integer(), nullable=False)
+    entity_lei = Column(String())
+    country = Column(String(), nullable=False)
+    filing_system = Column(String(), nullable=False)
     filing_type = Column(
-        types_mapping.Text_type, nullable=False, default="AFR"
+        String(), nullable=False, default="AFR"
     )
-    date_added = Column(types_mapping.Date_type, nullable=False)
-    report_date = Column(types_mapping.Date_type, nullable=False)
-    xbrl_json_instance = Column(types_mapping.Text_type, nullable=True)
-    report_package = Column(types_mapping.Text_type, nullable=True)
-    report_document = Column(types_mapping.Text_type, nullable=True)
-    viewer_document = Column(types_mapping.Text_type, nullable=True)
+    date_added = Column(Date(), nullable=False)
+    report_date = Column(Date(), nullable=False)
+    xbrl_json_instance = Column(String(), nullable=True)
+    report_package = Column(String(), nullable=True)
+    report_document = Column(String(), nullable=True)
+    viewer_document = Column(String(), nullable=True)
     is_loadable = Column(BOOLEAN(), nullable=False, default=true())
-    load_error = Column(types_mapping.Text_type, nullable=True)
+    load_error = Column(String(), nullable=True)
     is_amended_hint = Column(BOOLEAN(), nullable=True, default=false())
     other_langs_hint = Column(BOOLEAN(), nullable=True, default=false())
-    esef_filer: EsefEntity = relationship(
+    esef_filer: Mapped["EsefEntity"] = relationship(
         "EsefEntity",
         primaryjoin="EsefEntity.entity_lei==" "foreign(EsefFiling.entity_lei)",
         back_populates="esef_filings",
     )
-    errors: list[EsefFilingError] = relationship(
+    errors: Mapped[list["EsefFilingError"]] = relationship(
         "EsefFilingError",
         primaryjoin="EsefFiling.filing_id=="
         "foreign(EsefFilingError.filing_id)",
     )
-    langs: list[EsefFilingLang] = relationship(
+    langs: Mapped[list[EsefFilingLang]] = relationship(
         "EsefFilingLang",
         primaryjoin="EsefFiling.filing_id=="
         "foreign(EsefFilingLang.filing_id)",
     )
-    inferred_langs: list[EsefInferredFilingLanguage] = relationship(
+    inferred_langs: Mapped[list["EsefInferredFilingLanguage"]] = relationship(
         "EsefInferredFilingLanguage",
         primaryjoin="EsefFiling.filing_id"
         "==foreign(EsefInferredFilingLanguage.filing_id)",
@@ -255,33 +261,33 @@ class EsefEntity(Base, CreatedUpdatedAtColMixin):
     """ESEF entity information based on lei"""
 
     __table_args__ = {"comment": "esef_index"}
-    entity_lei = Column(types_mapping.Text_type, primary_key=True)
-    location_code = Column(types_mapping.Text_type, nullable=True)
-    lei_legal_name = Column(types_mapping.Text_type, nullable=True)
-    lei_legal_address_lines = Column(types_mapping.Text_type, nullable=True)
-    lei_legal_address_city = Column(types_mapping.Text_type, nullable=True)
-    lei_legal_address_country = Column(types_mapping.Text_type, nullable=True)
+    entity_lei = Column(String(), primary_key=True)
+    location_code = Column(String(), nullable=True)
+    lei_legal_name = Column(String(), nullable=True)
+    lei_legal_address_lines = Column(String(), nullable=True)
+    lei_legal_address_city = Column(String(), nullable=True)
+    lei_legal_address_country = Column(String(), nullable=True)
     lei_legal_address_postal_code = Column(
-        types_mapping.Text_type, nullable=True
+        String(), nullable=True
     )
-    lei_hq_address_lines = Column(types_mapping.Text_type, nullable=True)
-    lei_hq_address_city = Column(types_mapping.Text_type, nullable=True)
-    lei_hq_address_country = Column(types_mapping.Text_type, nullable=True)
-    lei_hq_address_postal_code = Column(types_mapping.Text_type, nullable=True)
-    lei_category = Column(types_mapping.Text_type, nullable=True)
-    lei_isin = Column(types_mapping.Text_type, nullable=True)
-    industry = Column(types_mapping.Bigint_type, nullable=True)
-    esef_filings: list[EsefFiling] = relationship(
+    lei_hq_address_lines = Column(String(), nullable=True)
+    lei_hq_address_city = Column(String(), nullable=True)
+    lei_hq_address_country = Column(String(), nullable=True)
+    lei_hq_address_postal_code = Column(String(), nullable=True)
+    lei_category = Column(String(), nullable=True)
+    lei_isin = Column(String(), nullable=True)
+    industry = Column(BigInteger(), nullable=True)
+    esef_filings: Mapped[list["EsefFiling"]] = relationship(
         "EsefFiling",
         primaryjoin="EsefEntity.entity_lei==foreign(EsefFiling.entity_lei)",
         back_populates="esef_filer",
     )
-    location: Location = relationship(
+    location: Mapped["Location"] = relationship(
         "Location",
         primaryjoin="Location.code==foreign(EsefEntity.location_code)",
         back_populates="esef_filers",
     )
-    other_names: list[EsefEntityOtherName] = relationship(
+    other_names: Mapped[list["EsefEntityOtherName"]] = relationship(
         "EsefEntityOtherName",
         primaryjoin="EsefEntity.entity_lei"
         "==foreign(EsefEntityOtherName.entity_lei)",
@@ -293,10 +299,10 @@ class EsefEntityOtherName(Base, CreatedUpdatedAtColMixin):
     """Other or previous entity names extracted from lei information"""
 
     __table_args__ = {"comment": "esef_index"}
-    entity_lei = Column(types_mapping.Text_type, primary_key=True)
-    other_name = Column(types_mapping.Text_type, primary_key=True)
-    other_name_type = Column(types_mapping.Text_type, primary_key=True)
-    esef_entity: EsefEntity = relationship(
+    entity_lei = Column(String(), primary_key=True)
+    other_name = Column(String(), primary_key=True)
+    other_name_type = Column(String(), primary_key=True)
+    esef_entity: Mapped["EsefEntity"] = relationship(
         "EsefEntity",
         primaryjoin="EsefEntity.entity_lei"
         "==foreign(EsefEntityOtherName.entity_lei)",
@@ -308,38 +314,38 @@ class EsefFilingLang(Base, CreatedUpdatedAtColMixin):
     """Filing language as presented in https://filings.xbrl.org/"""
 
     __table_args__ = {"comment": "esef_index"}
-    filing_id = Column(types_mapping.Integer_type, primary_key=True)
+    filing_id = Column(Integer(), primary_key=True)
     lang = Column(
-        types_mapping.Text_type,
+        String(),
         nullable=False,
         primary_key=True,
         default="unknown",
     )
-    lang_name = Column(types_mapping.Text_type)
+    lang_name = Column(String())
 
 
 class EsefInferredFilingLanguage(Base, CreatedUpdatedAtColMixin):
     """Filing language inferred from json instance included with the filing"""
 
     __table_args__ = {"comment": "esef_index"}
-    filing_id = Column(types_mapping.Bigint_type, primary_key=True)
+    filing_id = Column(BigInteger(), primary_key=True)
     lang = Column(
-        types_mapping.Text_type,
+        String(),
         nullable=False,
         primary_key=True,
         default="unknown",
     )
-    lang_name = Column(types_mapping.Text_type)
-    facts_in_lang = Column(types_mapping.Integer_type)
-    facts_in_report = Column(types_mapping.Integer_type)
+    lang_name = Column(String())
+    facts_in_lang = Column(Integer())
+    facts_in_report = Column(Integer())
 
 
 class EsefFilingError(Base):
     """Filing validation errors included in https://filings.xbrl.org/"""
 
     __table_args__ = {"comment": "esef_index"}
-    error_id = Column(types_mapping.Bigint_type, primary_key=True)
-    filing_id = Column(types_mapping.Bigint_type, nullable=False)
-    severity = Column(types_mapping.Text_type, nullable=False)
-    code = Column(types_mapping.Text_type, nullable=True)
-    message = Column(types_mapping.Text_type, nullable=True)
+    error_id = Column(BigInteger(), primary_key=True)
+    filing_id = Column(BigInteger(), nullable=False)
+    severity = Column(String(), nullable=False)
+    code = Column(String(), nullable=True)
+    message = Column(String(), nullable=True)

@@ -18,12 +18,21 @@ from sqlalchemy.orm import backref
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import Query
 from sqlalchemy.orm import relationship
+from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import Session
 from sqlalchemy.sql import table
 from sqlalchemy.sql import TableClause
 from sqlalchemy.types import BOOLEAN
 from xbrlreportsindexes.model import create_view
-from xbrlreportsindexes.model import types_mapping
+from sqlalchemy.types import (
+    BigInteger,
+    DateTime,
+    Date,
+    Integer,
+    Numeric,
+    SmallInteger,
+    String,
+)
 from xbrlreportsindexes.model.base_model import Base
 from xbrlreportsindexes.model.base_model import CreatedUpdatedAtColMixin
 from xbrlreportsindexes.model.base_model import FeedIdColMixin
@@ -55,24 +64,24 @@ class SecFeed(Base, CreatedUpdatedAtColMixin, FeedIdColMixin):
 
     __table_args__ = {"comment": "sec_rss"}
     # columns
-    feed_month = Column(types_mapping.Date_type, nullable=False)
-    title = Column(types_mapping.Text_type, nullable=True)
-    link = Column(types_mapping.Text_type, nullable=True)
-    feed_link = Column(types_mapping.Text_type, nullable=False)
-    description = Column(types_mapping.Text_type, nullable=True)
-    language = Column(types_mapping.Text_type, nullable=True)
-    pub_date = Column(types_mapping.Timestamptz_type, nullable=True)
-    last_build_date = Column(types_mapping.Timestamptz_type, nullable=True)
-    included_filings_count = Column(types_mapping.Bigint_type, nullable=True)
-    included_files_count = Column(types_mapping.Bigint_type, nullable=True)
+    feed_month = Column(Date(), nullable=False)
+    title = Column(String(), nullable=True)
+    link = Column(String(), nullable=True)
+    feed_link = Column(String(), nullable=False)
+    description = Column(String(), nullable=True)
+    language = Column(String(), nullable=True)
+    pub_date = Column(DateTime(timezone=True), nullable=True)
+    last_build_date = Column(DateTime(timezone=True), nullable=True)
+    included_filings_count = Column(BigInteger(), nullable=True)
+    included_files_count = Column(BigInteger(), nullable=True)
     last_modified_date = Column(
         LAST_MODIFIED_DATE_COL,
-        types_mapping.Timestamp_type,
+        DateTime(),
         nullable=True,
         index=True,
     )
     # relations
-    filings: list[SecFiling] = relationship("SecFiling", back_populates="feed")
+    filings: Mapped[list["SecFiling"]] = relationship("SecFiling", back_populates="feed")
 
 
 class SecFiling(
@@ -82,47 +91,47 @@ class SecFiling(
 
     __table_args__ = {"comment": "sec_rss"}
     # columns
-    filing_link = Column(types_mapping.Text_type, nullable=True)
-    filing_title = Column(types_mapping.Text_type, nullable=True)
-    filing_description = Column(types_mapping.Text_type, nullable=True)
-    primary_document_url = Column(types_mapping.Text_type, nullable=True)
-    entry_point = Column(types_mapping.Text_type, nullable=True)
-    enclosure_url = Column(types_mapping.Text_type, nullable=True)
-    enclosure_size = Column(types_mapping.Bigint_type, nullable=True)
-    pub_date = Column(types_mapping.Timestamp_type, nullable=True, index=True)
-    company_name = Column(types_mapping.Text_type, nullable=True)
-    form_type = Column(types_mapping.Text_type, nullable=True, index=True)
-    inline_xbrl = Column(types_mapping.Integer_type, nullable=True)
+    filing_link = Column(String(), nullable=True)
+    filing_title = Column(String(), nullable=True)
+    filing_description = Column(String(), nullable=True)
+    primary_document_url = Column(String(), nullable=True)
+    entry_point = Column(String(), nullable=True)
+    enclosure_url = Column(String(), nullable=True)
+    enclosure_size = Column(BigInteger(), nullable=True)
+    pub_date = Column(DateTime(), nullable=True, index=True)
+    company_name = Column(String(), nullable=True)
+    form_type = Column(String(), nullable=True, index=True)
+    inline_xbrl = Column(Integer(), nullable=True)
     filing_date = Column(
-        types_mapping.Timestamp_type, nullable=True, index=True
+        DateTime(), nullable=True, index=True
     )
-    cik_number = Column(types_mapping.Text_type, nullable=True)
+    cik_number = Column(String(), nullable=True)
     accession_number = Column(
-        types_mapping.Text_type, nullable=True, index=True
+        String(), nullable=True, index=True
     )
-    file_number = Column(types_mapping.Text_type, nullable=True)
-    acceptance_datetime = Column(types_mapping.Timestamp_type, nullable=True)
-    period = Column(types_mapping.Date_type, nullable=True)
+    file_number = Column(String(), nullable=True)
+    acceptance_datetime = Column(DateTime(), nullable=True)
+    period = Column(Date(), nullable=True)
     assigned_sic = Column(
-        types_mapping.Integer_type, nullable=True, index=True
+        Integer(), nullable=True, index=True
     )
-    assistant_director = Column(types_mapping.Text_type, nullable=True)
-    fiscal_year_end = Column(types_mapping.Text_type, nullable=True)
-    fiscal_year_end_month = Column(types_mapping.Integer_type, nullable=True)
-    fiscal_year_end_day = Column(types_mapping.Integer_type, nullable=True)
+    assistant_director = Column(String(), nullable=True)
+    fiscal_year_end = Column(String(), nullable=True)
+    fiscal_year_end_month = Column(Integer(), nullable=True)
+    fiscal_year_end_day = Column(Integer(), nullable=True)
     duplicate = Column(
-        types_mapping.Integer_type, nullable=True, index=True, default=0
+        Integer(), nullable=True, index=True, default=0
     )
     # relations
-    feed: list[SecFeed] = relationship("SecFeed", back_populates="filings")
-    files: list[SecFile] = relationship("SecFile", back_populates="filing")
-    filer: SecFiler = relationship(
+    feed: Mapped[list["SecFeed"]] = relationship("SecFeed", back_populates="filings")
+    files: Mapped[list["SecFile"]] = relationship("SecFile", back_populates="filing")
+    filer: Mapped["SecFiler"] = relationship(
         "SecFiler",
         foreign_keys=[cik_number],
         primaryjoin="SecFiling.cik_number==SecFiler.cik_number",
         back_populates="filings",
     )
-    industry: list[SecIndustry] = relationship(
+    industry: Mapped[list["SecIndustry"]] = relationship(
         "SecIndustry",
         primaryjoin=(
             "and_(foreign(SecFiling.assigned_sic)==SecIndustry.industry_code, "
@@ -262,23 +271,23 @@ class SecFile(
     __table_args__ = {"comment": "sec_rss"}
     # column
     file_id = Column(
-        types_mapping.Bigint_type,
+        BigInteger(),
         primary_key=True,
         nullable=False,
         autoincrement=False,
     )
-    accession_number = Column(types_mapping.Text_type, nullable=True)
-    sequence = Column(types_mapping.Integer_type, nullable=True)
-    file = Column(types_mapping.Text_type, nullable=True)
-    type = Column(types_mapping.Text_type, nullable=True)
-    size = Column(types_mapping.Bigint_type, nullable=True)
-    description = Column(types_mapping.Text_type, nullable=True)
-    inline_xbrl = Column(types_mapping.Integer_type, nullable=True)
-    url = Column(types_mapping.Text_type, nullable=True)
-    type_tag = Column(types_mapping.Text_type, nullable=True, index=True)
-    duplicate = Column(types_mapping.Integer_type, nullable=True, index=True)
+    accession_number = Column(String(), nullable=True)
+    sequence = Column(Integer(), nullable=True)
+    file = Column(String(), nullable=True)
+    type = Column(String(), nullable=True)
+    size = Column(BigInteger(), nullable=True)
+    description = Column(String(), nullable=True)
+    inline_xbrl = Column(Integer(), nullable=True)
+    url = Column(String(), nullable=True)
+    type_tag = Column(String(), nullable=True, index=True)
+    duplicate = Column(Integer(), nullable=True, index=True)
     # relations
-    filing: SecFiling = relationship("SecFiling", back_populates="files")
+    filing: Mapped["SecFiling"] = relationship("SecFiling", back_populates="files")
 
     def to_xml(self, parent: etree._Element) -> etree._Element:
         """Returns file element similar to SEC rss feed file element"""
@@ -309,45 +318,45 @@ class SecFiler(Base, CreatedUpdatedAtColMixin):
     __table_args__ = {"comment": "sec_rss"}
     # columns
     cik_number = Column(
-        types_mapping.Text_type,
+        String(),
         nullable=False,
         primary_key=True,
         autoincrement=False,
         index=True,
     )
     industry_code = Column(
-        types_mapping.Integer_type, nullable=True, index=True
+        Integer(), nullable=True, index=True
     )
-    industry_description = Column(types_mapping.Text_type, nullable=True)
-    state_of_incorporation = Column(types_mapping.Text_type, nullable=True)
-    mailing_state = Column(types_mapping.Text_type, nullable=True)
-    mailing_city = Column(types_mapping.Text_type, nullable=True)
-    mailing_zip = Column(types_mapping.Text_type, nullable=True)
-    conformed_name = Column(types_mapping.Text_type, nullable=True)
-    business_city = Column(types_mapping.Text_type, nullable=True)
-    business_state = Column(types_mapping.Text_type, nullable=True)
-    business_zip = Column(types_mapping.Text_type, nullable=True)
-    country = Column(types_mapping.Text_type, nullable=True)
-    location_code = Column(types_mapping.Text_type, nullable=False)
+    industry_description = Column(String(), nullable=True)
+    state_of_incorporation = Column(String(), nullable=True)
+    mailing_state = Column(String(), nullable=True)
+    mailing_city = Column(String(), nullable=True)
+    mailing_zip = Column(String(), nullable=True)
+    conformed_name = Column(String(), nullable=True)
+    business_city = Column(String(), nullable=True)
+    business_state = Column(String(), nullable=True)
+    business_zip = Column(String(), nullable=True)
+    country = Column(String(), nullable=True)
+    location_code = Column(String(), nullable=False)
     # relations
-    filings: list[SecFiling] = relationship(
+    filings: Mapped[list["SecFiling"]] = relationship(
         "SecFiling",
         primaryjoin="SecFiler.cik_number==foreign(SecFiling.cik_number)",
         back_populates="filer",
     )
 
-    former_names: list[SecFormerNames] = relationship(
+    former_names: Mapped[list["SecFormerNames"]] = relationship(
         "SecFormerNames", back_populates="filer"
     )
 
-    ticker_symbols: list[SecCikTickerMapping] = relationship(
+    ticker_symbols: Mapped[list["SecCikTickerMapping"]] = relationship(
         "SecCikTickerMapping",
         primaryjoin="foreign(SecCikTickerMapping.cik_number)"
         "==SecFiler.cik_number",
         back_populates="filer",
     )
 
-    location: Location = relationship(
+    location: Mapped["Location"] = relationship(
         "Location",
         primaryjoin="Location.code==foreign(SecFiler.location_code)",
         back_populates="filers",
@@ -359,17 +368,17 @@ class SecFormerNames(Base, CreatedUpdatedAtColMixin):
 
     __table_args__ = {"comment": "sec_rss"}
     # columns
-    cik_number: Mapped[str] = Column(
+    cik_number: Mapped[str] = mapped_column(
+        String(),
         ForeignKey("sec_filer.cik_number"),
-        types_mapping.Text_type,
         autoincrement=False,
         nullable=False,
         primary_key=True,
     )
-    name = Column(types_mapping.Text_type, nullable=False, primary_key=True)
-    date_changed = Column(types_mapping.Date_type, nullable=False)
+    name = Column(String(), nullable=False, primary_key=True)
+    date_changed = Column(Date(), nullable=False)
     # relationships
-    filer: SecFiler = relationship("SecFiler", back_populates="former_names")
+    filer: Mapped["SecFiler"] = relationship("SecFiler", back_populates="former_names")
 
 
 class SecCikTickerMapping(Base, CreatedUpdatedAtColMixin):
@@ -378,19 +387,19 @@ class SecCikTickerMapping(Base, CreatedUpdatedAtColMixin):
     __table_args__ = {"comment": "sec_rss"}
     # columns
     cik_number = Column(
-        types_mapping.Text_type, primary_key=True, nullable=False
+        String(), primary_key=True, nullable=False
     )
     ticker_symbol = Column(
-        types_mapping.Text_type, primary_key=True, nullable=False
+        String(), primary_key=True, nullable=False
     )
     exchange = Column(
-        types_mapping.Text_type, primary_key=True, nullable=False
+        String(), primary_key=False, nullable=True
     )
     company_name = Column(
-        types_mapping.Text_type, primary_key=True, nullable=False
+        String(), primary_key=True, nullable=False
     )
     # relations
-    filer: SecFiler = relationship(
+    filer: Mapped["SecFiler"] = relationship(
         "SecFiler",
         primaryjoin="foreign(SecCikTickerMapping.cik_number)"
         "==SecFiler.cik_number",
@@ -403,12 +412,12 @@ class SpCompaniesCiks(Base, CreatedUpdatedAtColMixin):
 
     __table_args__ = {"comment": "sec_rss"}
     cik_number = Column(
-        types_mapping.Text_type, nullable=False, primary_key=True
+        String(), nullable=False, primary_key=True
     )
-    as_of_date = Column(types_mapping.Date_type, nullable=True)
+    as_of_date = Column(Date(), nullable=True)
     is_sp100 = Column(BOOLEAN, nullable=True)
-    ticker_symbol = Column(types_mapping.Text_type, nullable=True)
-    date_first_added = Column(types_mapping.Text_type, nullable=True)
+    ticker_symbol = Column(String(), nullable=True)
+    date_first_added = Column(String(), nullable=True)
 
 
 class SecIndustry(Base):
@@ -417,29 +426,29 @@ class SecIndustry(Base):
     __table_args__ = {"comment": "sec_rss"}
     # columns
     industry_id = Column(
-        types_mapping.Bigint_type,
+        BigInteger(),
         nullable=False,
         primary_key=True,
         autoincrement=False,
     )
     industry_classification = Column(
-        types_mapping.Char_varying_type, nullable=True
+        String(), nullable=True
     )
-    industry_code = Column(types_mapping.Bigint_type, nullable=True)
+    industry_code = Column(BigInteger(), nullable=True)
     industry_description = Column(
-        types_mapping.Char_varying_type, nullable=True
+        String(), nullable=True
     )
-    depth = Column(types_mapping.Integer_type, nullable=True)
+    depth = Column(Integer(), nullable=True)
     parent_id = Column(
-        types_mapping.Bigint_type, nullable=True
+        BigInteger(), nullable=True
     )  # ForeignKey('industry.industry_id')
     # relations
-    children: list[SecIndustry] = relationship(
+    children: Mapped[list["SecIndustry"]] = relationship(
         "SecIndustry",
         primaryjoin="SecIndustry.industry_id==foreign(SecIndustry.parent_id)",
         backref=backref("parent", remote_side=[industry_id]),
     )
-    filings: list[SecFiling] = relationship(
+    filings: Mapped[list["SecFiling"]] = relationship(
         "SecFiling",
         primaryjoin=(
             "and_(SecIndustry.industry_code==foreign(SecFiling.assigned_sic),"
@@ -474,20 +483,20 @@ class SecIndustryLevel(Base):
 
     __table_args__ = {"comment": "sec_rss"}
     industry_level_id = Column(
-        types_mapping.Bigint_type,
+        BigInteger(),
         nullable=False,
         primary_key=True,
         autoincrement=False,
     )
     industry_classification = Column(
-        types_mapping.Char_varying_type, nullable=True
+        String(), nullable=True
     )
-    ancestor_id = Column(types_mapping.Bigint_type, nullable=True)
-    ancestor_code = Column(types_mapping.Integer_type, nullable=True)
-    ancestor_depth = Column(types_mapping.Integer_type, nullable=True)
-    descendant_id = Column(types_mapping.Bigint_type, nullable=True)
-    descendant_code = Column(types_mapping.Integer_type, nullable=True)
-    descendant_depth = Column(types_mapping.Integer_type, nullable=True)
+    ancestor_id = Column(BigInteger(), nullable=True)
+    ancestor_code = Column(Integer(), nullable=True)
+    ancestor_depth = Column(Integer(), nullable=True)
+    descendant_id = Column(BigInteger(), nullable=True)
+    descendant_code = Column(Integer(), nullable=True)
+    descendant_depth = Column(Integer(), nullable=True)
 
 
 class SecIndustryStructure(Base):
@@ -495,16 +504,16 @@ class SecIndustryStructure(Base):
 
     __table_args__ = {"comment": "sec_rss"}
     industry_structure_id = Column(
-        types_mapping.Bigint_type,
+        BigInteger(),
         nullable=False,
         primary_key=True,
         autoincrement=False,
     )
     industry_classification = Column(
-        types_mapping.Char_varying_type, nullable=False
+        String(), nullable=False
     )
-    depth = Column(types_mapping.Integer_type, nullable=False)
-    level_name = Column(types_mapping.Char_varying_type, nullable=True)
+    depth = Column(Integer(), nullable=False)
+    level_name = Column(String(), nullable=True)
 
 
 # create views
